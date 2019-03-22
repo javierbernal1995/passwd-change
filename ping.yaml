@@ -6,4 +6,4 @@
 
   tasks:
   - name: ping 
-  win_ping:
+  win-ping:
