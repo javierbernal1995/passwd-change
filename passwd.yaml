@@ -1,4 +1,5 @@
 --- 
+-host: 'webserver'
 vars: 
   user_name: 'javi' 
   new_password: 'bernal'
