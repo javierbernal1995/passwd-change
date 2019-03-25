@@ -2,7 +2,7 @@
 -hosts: 'grupo'
 vars:
   user_name:'javi'
-  user_name: 'bernal'
+  new_password: 'bernal'
 tasks:
 -name: 'Change your passwd'
 become: true
