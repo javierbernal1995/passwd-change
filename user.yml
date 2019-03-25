@@ -1,5 +1,5 @@
 ---
-hosts: 'grupo'
+- hosts: 'grupo'
 vars:
   user_name:'javi'
   new_password:'bernal'
