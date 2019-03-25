@@ -1,12 +1,5 @@
 ---
 - hosts: 'grupo'
-- vars:
-   user_name:'javi'
-   new_password:'bernal'
-- tasks:
-- name: 'Change your passwd'
-- become: true
-- user:
-   name: '{{ user_name }}'
-   password: '{{ new_password | password_hash("sha512)"}}'
-   update_password: 'always'
+tasks:
+ - name: Change passwd
+ user=javi update_password=always password=bernal
