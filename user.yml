@@ -1,13 +1,11 @@
 ---
-- hosts: grupo
-    - name: Create user
-      user:
-        name: vega
-        password: "{{ 'vega' | password_hash('sha512') }}"
-        shell: /bin/bash
-        update_password: on_create
-      register: vega
-  
-    - name: Force to change password
-      shell: chage -d 0 vega
-      when: vega.changed
+- hosts: all
+  vars:
+  # created with:
+  #  python -c "from passlib.hash import sha512_crypt; print sha512_crypt.encrypt('<password>')"
+  # above command requires the PassLib library: sudo pip install passlib
+  - password: '$6$rounds=100000$H/83rErWaObIruDw$DEX.DgAuZuuF.wOyCjGHnVqIetVt3qRDnTUvLJHBFKdYr29uVYbfXJeHg.IacaEQ08WaHo9xCsJQgfgZjqGZI0'
+
+tasks:
+
+- user: name=javi password={{password}} groups=sudo,www-data shell=/bin/bash append=yes
