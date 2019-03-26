@@ -1,0 +1,11 @@
+---
+- name: Create user
+  user:
+    name: vega
+    password: "{{ 'vega' | password_hash('sha512') }}"
+    shell: /bin/bash
+    update_password: on_create
+  register: vega
+- name: Force to change password
+  shell: chage -d 0 vega
+  when: vega.changed
