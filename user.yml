@@ -1,5 +1,0 @@
----
-- hosts: 'grupo'
-tasks:
- - name: Change passwd
- user=javi update_password=always password=bernal
