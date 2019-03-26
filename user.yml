@@ -1,5 +1,4 @@
 ---
-tasks:
 - name: Create bernal user
   user:
     name: bernal
