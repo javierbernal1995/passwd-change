@@ -1,6 +1,5 @@
 ---
 - host: grupo
-tasks:
 - name: Create user
   user:
     name: vega
