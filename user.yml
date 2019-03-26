@@ -1,11 +1,13 @@
 ---
-- name: Create bernal user
-  user:
-    name: bernal
-    password: "{{ 'password' | password_hash('sha512') }}"
-    shell: /bin/bash
-    update_password: on_create
-  register: bernal
-- name: Force bernal to change password
-  shell: chage -d 0 bernal
-  when: bernal.changed
+
+- hosts: all
+  - name: Create bernal user
+    user:
+      name: bernal
+      password: "{{ 'password' | password_hash('sha512') }}"
+      shell: /bin/bash
+      update_password: on_create
+      register: bernal
+  - name: Force bernal to change password
+    shell: chage -d 0 bernal
+    when: bernal.changed
