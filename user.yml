@@ -1,5 +1,5 @@
 ---
-- host: grupo
+- hosts: grupo
 - name: Create user
   user:
     name: vega
