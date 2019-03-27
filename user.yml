@@ -1,6 +1,7 @@
 ---
 - name: create user
-    user: name: bernal
+    user:
+      name: bernal
       password: 'bernal'
       shell: /bin/bash
       update_password: on_create
