@@ -1,3 +1,4 @@
+---
 - name: Create madhead user
   user:
     name: madhead
