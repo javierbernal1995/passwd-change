@@ -1,5 +1,7 @@
 ---
 - hosts: all
   tasks:
+    - name: create group
+      group: name=bernal 
     - name: create user
-      user: name=bernal group=bernal shell=/bin/bass password=bernal
+      user: name=bernal group=bernal shell=/bin/bass password="{{ 'bernal' | password_hash('sha512') }}"
