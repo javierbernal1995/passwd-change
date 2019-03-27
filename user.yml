@@ -1,6 +1,5 @@
 ---
 - name: create user
-    user:
       name: bernal
       password: 'bernal'
       shell: /bin/bash
