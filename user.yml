@@ -1,7 +1,7 @@
 ---
 - host: all
 - remote_user: root
-tasks:
+- tasks:
  - group:
    name: bernal
    state: present
