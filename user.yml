@@ -2,10 +2,6 @@
 - host: all
 - remote_user: root
 - tasks:
- - group:
-   name: bernal
-   state: present
  - name: create user
    user:
      name: bernal
-     group: bernal
