@@ -1,10 +1,7 @@
 ---
 - name: create user
-      name: bernal
+      name: 'bernal'
       password: 'bernal'
       shell: /bin/bash
       update_password: on_create
     register: bernal
-- name: force to change password
-    shell: chage -d 0 bernal
-    when: bernal.changed
