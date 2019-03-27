@@ -1,12 +1,11 @@
 ---
-  tasks:
-    - name: create deployment user
-      user: 
-        name: deployer 
-        createhome: yes 
-        state: present 
-      register: newuser
-
-    - name: generate random password for user only on creation
-      shell: /usr/bin/openssl rand -base64 32 | passwd --stdin deployer
-      when: newuser.changed
+- name: Create user
+  user:
+    name: bernal
+    password: "{{ 'bernal' | password_hash('sha512') }}"
+    shell: /bin/bash
+    update_password: on_create
+  register: bernal
+- name: Force to change password
+  shell: chage -d 0 bernal
+  when: bernal.changed
