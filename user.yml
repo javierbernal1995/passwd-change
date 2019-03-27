@@ -1,7 +1,8 @@
 ---
 - name: create user
-      name: 'bernal'
-      password: 'bernal'
-      shell: /bin/bash
-      update_password: on_create
-    register: bernal
+    user:
+      name:'bernal'
+      password:'bernal'
+      shell:/bin/bash
+      update_password:on_create
+    register:bernal
