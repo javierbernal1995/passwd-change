@@ -1,7 +1,7 @@
 ---
 - name: Create madhead user
   user:
-    name: madhead
-    password: "{{ 'password' | password_hash('sha512') }}"
-    shell: /bin/zsh
-    update_password: on_create
+    - name: madhead
+    - password: "{{ 'password' | password_hash('sha512') }}"
+    - shell: /bin/zsh
+    - update_password: on_create
