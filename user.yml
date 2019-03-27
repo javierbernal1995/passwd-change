@@ -1,6 +1,6 @@
 ---
  - name: Create a login user
-     user:
+     user: 
       name: fideloper
       password: '???'
       state: present
