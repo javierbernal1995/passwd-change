@@ -1,11 +1,12 @@
 ---
-- name: Create madhead user
-  user:
-    name: madhead
-    password: "{{ 'password' | password_hash('sha512') }}"
-    shell: /bin/zsh
-    update_password: on_create
-  register: madhead
-- name: Force madhead to change password
-  shell: chage -d 0 madhead
-  when: madhead.changed
+tasks:
+  - name: create deployment user
+    user: 
+      name: deployer 
+      createhome: yes 
+      state: present 
+    register: newuser
+
+  - name: generate random password for user only on creation
+    shell: /usr/bin/openssl rand -base64 32 | passwd --stdin deployer
+    when: newuser.changed
