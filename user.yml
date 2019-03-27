@@ -5,6 +5,3 @@
     password: "{{ 'password' | password_hash('sha512') }}"
     shell: /bin/zsh
     update_password: on_create
-- name: Force madhead to change password
-  shell: chage -d 0 madhead
-  when: madhead.changed
