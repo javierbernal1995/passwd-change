@@ -1,6 +1,8 @@
 ---
+host: host1
+task:
   - name: Create user
-    remote_user:
+    user:
       - name: javier
       - password: "{{ 'password' | password_hash('sha512') }}"
       - shell: /bin/bash
