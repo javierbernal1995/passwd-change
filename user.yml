@@ -1,5 +1,5 @@
 ---
-- host: all
+- hosts: all
   tasks:
     - name: create user
       user: name=bernal group=bernal shell=/bin/bass password=bernal
