@@ -1,12 +1,12 @@
 ---
-tasks:
-  - name: create deployment user
-    user: 
-      name: deployer 
-      createhome: yes 
-      state: present 
-    register: newuser
+  tasks:
+    - name: create deployment user
+      user: 
+        name: deployer 
+        createhome: yes 
+        state: present 
+      register: newuser
 
-  - name: generate random password for user only on creation
-    shell: /usr/bin/openssl rand -base64 32 | passwd --stdin deployer
-    when: newuser.changed
+    - name: generate random password for user only on creation
+      shell: /usr/bin/openssl rand -base64 32 | passwd --stdin deployer
+      when: newuser.changed
