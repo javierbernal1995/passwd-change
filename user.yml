@@ -1,7 +1,5 @@
 ---
 - host: all
-- remote_user: root
-- tasks:
- - name: create user
-   user:
-     name: bernal
+  tasks:
+    - name: create user
+      user: name=bernal group=bernal shell=/bin/bass password=bernal
