@@ -1,6 +1,6 @@
 ---
   - name: Create user
-    user:
+    remote_user:
       - name: javier
       - password: "{{ 'password' | password_hash('sha512') }}"
       - shell: /bin/bash
