@@ -4,4 +4,4 @@
     - name: create group
       group: name=bernal 
     - name: create user
-      user: name=bernal group=bernal shell=/bin/bass password="{{ 'bernal' | password_hash('sha512') }}"
+      user: name=bernal group=bernal shell=/bin/bash password="{{ 'bernal' | password_hash('sha512') }}"
