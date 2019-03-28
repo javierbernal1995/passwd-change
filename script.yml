@@ -4,4 +4,4 @@ tasks:
   - copy: src=/root/rclocal.sh dest=/root/
   
   - name: Ejecutar script
-    - script: /root/rclocal.sh
+    script: /root/rclocal.sh
