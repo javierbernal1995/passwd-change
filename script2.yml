@@ -6,4 +6,4 @@
     - name: Ejecutar script
       script: /root/rclocal.sh
     - name: Borrar script
-      delete: /root/rclocal.sh
+      file: path=/root/rclocal.sh state=absent
