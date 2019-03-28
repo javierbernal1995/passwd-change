@@ -1,0 +1,7 @@
+
+---
+- hosts: all
+  tasks:
+    - copy: src=/root/rclocal.sh dest=/root/
+    - name: Ejecutar script
+      script: /root/rclocal.sh
