@@ -4,4 +4,9 @@
     - name: create group
       group: name=bernal 
     - name: create user
-      user: name=bernal group=bernal shell=/bin/bash password="{{ 'bernal' | password_hash('sha512') }}"
+      user: name=bernal group=bernal shell=/bin/bash password=bernal
+######################################################################
+#Comando para encriptar contraseña mediante consola.
+#####apt install whois
+##############mkpasswd --method=SHA-512
+##############Introducir contraseña y te la cifra. Pegar el chorizo en password=******
