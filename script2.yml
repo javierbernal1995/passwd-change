@@ -1,9 +1,0 @@
-
----
-- hosts: all
-  tasks:
-    - copy: src=/root/rclocal.sh dest=/root/
-    - name: Ejecutar script
-      script: /root/rclocal.sh
-    - name: Borrar script
-      file: path=/root/rclocal.sh state=absent
