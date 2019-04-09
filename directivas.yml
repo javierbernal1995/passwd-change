@@ -3,16 +3,9 @@
   tasks:
     - name: Disable root login
       lineinfile: dest=/etc/ssh/sshd_config regexp='^PermitRootLogin' line="PermitRootLogin no" state=present
-    
     - name: Disable password authentication
-      lineinfile: dest=/etc/ssh/sshd_config regexp='^PasswordAuthentication' line="PasswordAuthentication no" state=present      
-    
+      lineinfile: dest=/etc/ssh/sshd_config regexp='^PasswordAuthentication' line="PasswordAuthentication no" state=present
     - name: Disable PAM
       lineinfile: dest=/etc/ssh/sshd_config regexp='^UsePam' line="UsePam no" state=present
-    
-    - name: Disable Challenge response authentication
+    - name: Disable challenge response authentication
       lineinfile: dest=/etc/ssh/sshd_config regexp='^ChallengeResponseAuthentication' line="ChallengeResponseAuthentication no" state=present
-     
-      handlers:
-        - name: Restart SSH
-          service: name=sshd state=restarted
