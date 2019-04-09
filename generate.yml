@@ -1,5 +1,6 @@
 ---
 - hosts: all
+############################VARIABLES##################################
   vars:
     users:
       - username: "mariano"
@@ -12,16 +13,28 @@
         password: "jesus"
     group:
       - group: "mariano"
-      - group: "sudo"
       - group: "jesus"
-        
+  
+######################################################################
+#Comando para encriptar contraseña mediante consola.
+#####apt install whois
+##############mkpasswd --method=SHA-512
+##############Introducir contraseña y te la cifra. Pegar el chorizo en password=******
+#La directiva groups: añade un grupo secundario al usuario. Append lo mete en el grupo aunque el usuario esté creado ya.
   tasks:
+##################INSTALACIÓN DE SUDO
+  - name: install sudo
+    apt: name=sudo update_cache=yes state=latest
+#####################CREAR GRUPOS MEDIANTE VARIABLE.###########
+######CREA TODOS LOS GRUPOS QUE ESTÁN EN LA VARIABLE GROUP.###################
   - name: create groups 
     group: 
       name: "{{ item.group }}"
     with_items: 
       "{{ group }}"
-    
+####################CREA USUARIOS QUE ESTÁN EN LA VARIABLE  USERS CON LOS ATRIBUTOS DE CADA UNO DE LOS USERNAME
+#######################VAMOS AÑADIENDO ITEMS POR CADA USUARIO DIFERENTE
+#######################REALIZAMOS UN BUCLE QUE VA COGIENDO CADA ATRIBUTO = VALOR QUE HEMOS AÑADIDO
   - name: create users with groups, shell and password.
     user:
       name: "{{ item.username }}"
