@@ -2,7 +2,18 @@
 - hosts: all
   become: true
   gather_facts: false
+  vars:
+    users:
+      - username: mariano
+      - groups: mariano,sudo
+      - shell: /bin/bash
+      - password: mariano
 
   tasks:
-  - name: Generate /etc/ssh/ RSA host key
-    command : ssh-keygen -q -t rsa -f /etc/ssh/ssh_host_rsa_key -C "" -N ""
+  - name: create users with groups, shell and password.
+    user:
+      name: {{ item.username }}
+      groups: {{ item.groups }}
+      shell: {{ item.shell }}
+      password: {{ item.password }}
+    with_items: {{ users }}
