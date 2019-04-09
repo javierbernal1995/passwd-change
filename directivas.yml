@@ -1,20 +1,6 @@
 ---
 - hosts: all
   tasks:
-  #############################################CREACIÓN DE USUARIO CON GRUPO SECUNDARIO SUDO Y SHELL VÁLIDA CON PASSWD ENCRIPTED
-    - name: install sudo
-      apt: name=sudo update_cache=yes state=latest
-    - name: create group
-      group: name=bernal 
-    - name: create user
-      user: name=bernal group=bernal shell=/bin/bash password=$6$3afbnf5/9r.R$5ow4olOELJJ0gzBtXf2m1MY3.MwcUqi3Mk1mcW65Nhl5m9PMmpTjcQj0b1vkSlUSHZMMdW1d5uewcIh4XFfyr. groups=sudo append=yes
-######################################################################
-#Comando para encriptar contraseña mediante consola.
-#####apt install whois
-##############mkpasswd --method=SHA-512
-##############Introducir contraseña y te la cifra. Pegar el chorizo en password=******
-#La directiva groups: añade un grupo secundario al usuario. Append lo mete en el grupo aunque el usuario esté creado ya.
-###################################DIRECTIVAS SSH########################################################################
     - name: Disable root login
       lineinfile: dest=/etc/ssh/sshd_config regexp='^PermitRootLogin' line="PermitRootLogin no" state=present
     
