@@ -15,8 +15,10 @@
         
   tasks:
   - name: create groups 
-    group: name="{{ item.groups }}"
-    with_items: "{{ groups }}"
+    group: 
+      name: "{{ item.groups }}"
+    with_items: 
+      "{{ groups }}"
     
   - name: create users with groups, shell and password.
     user:
