@@ -8,6 +8,8 @@
         password: "mariano"
       - username: "jesus"
         groups: "jesus,sudo"
+        shell: "/bin/bash"
+        password: "jesus"
     group:
       - group: "mariano"
       - group: "sudo"
