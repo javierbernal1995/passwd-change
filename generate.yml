@@ -5,9 +5,11 @@
   vars:
     users:
       - username: mariano
-      - groups: mariano,sudo
-      - shell: /bin/bash
-      - password: mariano
+        groups: mariano,sudo
+        shell: /bin/bash
+        password: mariano
+      - username: jesus
+        groups
 
   tasks:
   - name: create users with groups, shell and password.
