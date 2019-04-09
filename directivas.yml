@@ -9,3 +9,6 @@
       lineinfile: dest=/etc/ssh/sshd_config regexp='^UsePam' line="UsePam no" state=present
     - name: Disable challenge response authentication
       lineinfile: dest=/etc/ssh/sshd_config regexp='^ChallengeResponseAuthentication' line="ChallengeResponseAuthentication no" state=present
+  handlers:
+    - name: Restart SSH service
+      service: name=sshd state=restarted
