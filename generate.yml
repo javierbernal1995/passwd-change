@@ -14,8 +14,9 @@
   tasks:
   - name: create users with groups, shell and password.
     user:
-      name: {{ item.username }}
-      groups: {{ item.groups }}
-      shell: {{ item.shell }}
-      password: {{ item.password }}
-    with_items: {{ users }}
+      name: "{{ item.username }}"
+      groups: "{{ item.groups }}"
+      shell: "{{ item.shell }}"
+      password: "{{ item.password }}"
+    with_items:
+      "{{ users }}"
