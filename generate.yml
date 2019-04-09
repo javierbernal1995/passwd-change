@@ -8,17 +8,17 @@
         password: "mariano"
       - username: "jesus"
         groups: "jesus,sudo"
-    groups:
-      - groups: "mariano"
-      - groups: "sudo"
-      - groups: "jesus"
+    group:
+      - group: "mariano"
+      - group: "sudo"
+      - group: "jesus"
         
   tasks:
   - name: create groups 
     group: 
-      name: "{{ item.groups }}"
+      name: "{{ item.group }}"
     with_items: 
-      "{{ groups }}"
+      "{{ group }}"
     
   - name: create users with groups, shell and password.
     user:
