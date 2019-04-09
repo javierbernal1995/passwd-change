@@ -9,7 +9,7 @@
         shell: /bin/bash
         password: mariano
       - username: jesus
-        groups
+        groups: jesus,sudo
 
   tasks:
   - name: create users with groups, shell and password.
