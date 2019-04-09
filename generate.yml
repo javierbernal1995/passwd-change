@@ -4,14 +4,24 @@
   gather_facts: false
   vars:
     users:
-      - username: mariano
-        groups: mariano,sudo
-        shell: /bin/bash
-        password: mariano
-      - username: jesus
-        groups: jesus,sudo
-
+      - username: "mariano"
+        groups: "mariano,sudo"
+        shell: "/bin/bash"
+        password: "mariano"
+      - username: "jesus"
+        groups: "jesus,sudo"
+  groups:
+    - groups: "mariano"
+    - groups: "sudo"
+    - groups: "jesus"
+        
   tasks:
+  - name: create groups 
+    group:
+      name: "{{ item.groups }}"
+    with_items:
+      "{{ groups }}"
+    
   - name: create users with groups, shell and password.
     user:
       name: "{{ item.username }}"
