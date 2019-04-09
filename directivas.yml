@@ -12,10 +12,7 @@
     
     - name: Disable Challenge response authentication
       lineinfile: dest=/etc/ssh/sshd_config regexp='^ChallengeResponseAuthentication' line="ChallengeResponseAuthentication no" state=present
-    
-    - name: Disable root login
-      lineinfile: dest=/etc/ssh/sshd_config regexp='^PermitRootLogin' line="PermitRootLogin no" state=present
-      
+     
       handlers:
         - name: Restart SSH
           service: name=sshd state=restarted
