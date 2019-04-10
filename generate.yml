@@ -5,12 +5,12 @@
     users:
       - username: "mariano"
         groups: "mariano"
-        sudo: "sudo"
+        #sudo: "sudo"
         shell: "/bin/bash"
         password: "mariano"
       - username: "jesus"
         groups: "jesus"
-        sudo: "sudo"
+        #sudo: "sudo"
         shell: "/bin/bash"
         password: "jesus"
     group:
@@ -41,11 +41,13 @@
     user:
       name: "{{ item.username }}"
       group: "{{ item.groups }}"
-      groups: "{{ item.sudo }}"
+     # groups: "{{ item.sudo }}"
       shell: "{{ item.shell }}"
       password: "{{ item.password }}"
     with_items:
       "{{ users }}"
+      append: yes
+      groups: sudo
 ############################DIRECTIVAS PARA EL FICHERO ETC/SSH/SSHD_CONFIG
   - name: Disable root login
     lineinfile: dest=/etc/ssh/sshd_config regexp='^PermitRootLogin' line="PermitRootLogin prohibit-password" state=present
