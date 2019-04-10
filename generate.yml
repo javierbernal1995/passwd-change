@@ -43,7 +43,6 @@
       append: yes
       generate_ssh_key: yes
       ssh_key_bits: 2048
-      ssh_key_file: ~/.ssh/
     with_items:
       "{{ users }}"
 ############################DIRECTIVAS PARA EL FICHERO ETC/SSH/SSHD_CONFIG
