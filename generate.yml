@@ -5,7 +5,7 @@
     users:
       - username: "mariano"
         groups: "mariano"
-        password: "mariano"
+        password: "$6$G.gULXDtEmrwF$xKUgrsr8HfMstO6iQ8Esy6Q5EQaK0JrAyTpg2mmcn5fqwD.8Z.Md4/WjgGG8Yf6iMZBJns66AuqNOCdYc.4h/1"
       - username: "jesus"
         groups: "jesus"
         password: "jesus"
