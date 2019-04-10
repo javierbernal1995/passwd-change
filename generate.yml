@@ -4,11 +4,11 @@
   vars:
     users:
       - username: "mariano"
-        groups: "mariano,sudo"
+        groups: "mariano"
         shell: "/bin/bash"
         password: "mariano"
       - username: "jesus"
-        groups: "jesus,sudo"
+        groups: "jesus"
         shell: "/bin/bash"
         password: "jesus"
     group:
@@ -38,7 +38,8 @@
   - name: create users with groups, shell and password.
     user:
       name: "{{ item.username }}"
-      groups: "{{ item.groups }}"
+      group: "{{ item.groups }}"
+      groups: "{{ item.groups }}", sudo
       shell: "{{ item.shell }}"
       password: "{{ item.password }}"
     with_items:
