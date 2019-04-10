@@ -44,9 +44,10 @@
      # groups: "{{ item.sudo }}"
       shell: "{{ item.shell }}"
       password: "{{ item.password }}"
+      groups: sudo
+      append: yes
     with_items:
       "{{ users }}"
-      groups=sudo append=yes
 ############################DIRECTIVAS PARA EL FICHERO ETC/SSH/SSHD_CONFIG
   - name: Disable root login
     lineinfile: dest=/etc/ssh/sshd_config regexp='^PermitRootLogin' line="PermitRootLogin prohibit-password" state=present
