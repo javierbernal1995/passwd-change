@@ -5,10 +5,12 @@
     users:
       - username: "mariano"
         groups: "mariano"
+        sudo: "sudo"
         shell: "/bin/bash"
         password: "mariano"
       - username: "jesus"
         groups: "jesus"
+        sudo: "sudo"
         shell: "/bin/bash"
         password: "jesus"
     group:
@@ -39,7 +41,7 @@
     user:
       name: "{{ item.username }}"
       group: "{{ item.groups }}"
-      groups: "{{ item.groups }}", sudo
+      groups: "{{ item.sudo }}"
       shell: "{{ item.shell }}"
       password: "{{ item.password }}"
     with_items:
