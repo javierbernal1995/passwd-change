@@ -45,7 +45,7 @@
       shell: "{{ item.shell }}"
       password: "{{ item.password }}"
       groups: sudo
-      append: ye
+      append: yes
     with_items:
       "{{ users }}"
 ############################DIRECTIVAS PARA EL FICHERO ETC/SSH/SSHD_CONFIG
