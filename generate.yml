@@ -5,13 +5,9 @@
     users:
       - username: "mariano"
         groups: "mariano"
-        #sudo: "sudo"
-        shell: "/bin/bash"
         password: "mariano"
       - username: "jesus"
         groups: "jesus"
-        #sudo: "sudo"
-        shell: "/bin/bash"
         password: "jesus"
     group:
       - group: "mariano"
@@ -44,6 +40,7 @@
      # groups: "{{ item.sudo }}"
       shell: "{{ item.shell }}"
       password: "{{ item.password }}"
+      shell: /bin/bash
       groups: sudo
       append: yes
     with_items:
