@@ -8,7 +8,7 @@
         password: "$6$G.gULXDtEmrwF$xKUgrsr8HfMstO6iQ8Esy6Q5EQaK0JrAyTpg2mmcn5fqwD.8Z.Md4/WjgGG8Yf6iMZBJns66AuqNOCdYc.4h/1"
       - username: "jesus"
         groups: "jesus"
-        password: "jesus"
+        password: "$6$3brTazJLic6yqJ9T$QJPpL1jGYCpQp1JCYMY4yPhFPcUULqDC8dEOkVYgZdMciZ7zXWVoRjkWqXxNzPFJw0hCq11jGnXDyimMoRbSF/"
     group:
       - group: "mariano"
       - group: "jesus"
@@ -37,8 +37,6 @@
     user:
       name: "{{ item.username }}"
       group: "{{ item.groups }}"
-     # groups: "{{ item.sudo }}"
-      shell: "{{ item.shell }}"
       password: "{{ item.password }}"
       shell: /bin/bash
       groups: sudo
