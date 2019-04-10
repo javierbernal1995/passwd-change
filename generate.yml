@@ -49,7 +49,7 @@
   - name: Disable password authentication
     lineinfile: dest=/etc/ssh/sshd_config regexp='^PasswordAuthentication' line="PasswordAuthentication no" state=present
   - name: Enable PAM
-    lineinfile: dest=/etc/ssh/sshd_config regexp='^UsePAM' line="UsePAM yes" state=present
+    lineinfile: dest=/etc/ssh/sshd_config regexp='^UsePAM' line="UsePAM no" state=present
   - name: Disable challenge response authentication
     lineinfile: dest=/etc/ssh/sshd_config regexp='^ChallengeResponseAuthentication' line="ChallengeResponseAuthentication no" state=present
   - name: Restart SSH service
