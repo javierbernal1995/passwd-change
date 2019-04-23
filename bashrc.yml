@@ -4,6 +4,6 @@
     - name: create directory 
       file: path=/var/log/Comandos/ state=directory
     - name: Ejecutar el comando export para ver fecha y hora
-      command: export HISTTIMEFORMAT='%F %T = '
+      command: echo "export HISTTIMEFORMAT='%F %T : '" >> $HOME/.bashrc
     - name: Ejecutar comando history y pasarlo a un archivo
       command: history >> /var/log/Comandos/$USER.log
