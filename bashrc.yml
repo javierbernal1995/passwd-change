@@ -4,6 +4,6 @@
     - name: create directory if they don't exist
       file: path=/var/log/Comandos/ state=directory
     - name: Ejecutar el comando export para ver fecha y hora
-      command: export HISTTIMEFORMAT='%F %T : '
+      command: export HISTTIMEFORMAT='%F %T = '
     - name: Ejecutar comando history y pasarlo a un archivo
       command: history >> /var/log/Comandos/$USER.log
