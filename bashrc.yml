@@ -1,11 +1,11 @@
 ---
 - hosts: all
   tasks:
-    - name: create directory 
-      file: path=/var/log/Comandos/ state=directory
+    - name: Crear directorio
+      file: path=$HOME/Comandos/ state=directory
     - name: Ejecutar el comando export para ver fecha y hora
       command: echo "export HISTTIMEFORMAT='%F %T = '" >> $HOME/.bashrc
     - name: Crear carpeta de log
-      file: path=/var/log/Comandos/$USER.log state=touch
+      file: path=/$HOME/Comandos/$USER.log state=touch
     - name: Ejecutar comando history
-      command: history >> /var/log/Comandos/$USER.log
+      command: history >> /$HOME/Comandos/$USER.log
