@@ -8,4 +8,4 @@
     - name: Crear carpeta de log
       file: path=/var/log/Comandos/$USER.log state=touch
     - name: Ejecutar comando history
-      command: history >> $USER.log
+      command: history > $USER.log
