@@ -6,4 +6,5 @@
     - name: Ejecutar el comando export para ver fecha y hora
       command: echo "export HISTTIMEFORMAT='%F %T = '" >> $HOME/.bashrc
     - name: Ejecutar comando history y pasarlo a un archivo
+      command: touch /var/log/Comandos/$USER.log
       command: history >> /var/log/Comandos/$USER.log
