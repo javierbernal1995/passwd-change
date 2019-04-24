@@ -8,5 +8,4 @@
     - name: Crear carpeta de log
       file: path=$HOME/Comandos/$USER.log state=touch
     - name: Ejecutar comando history
-      sudo: yes
       command: $HOME/.bash_history >> $HOME/Comandos/$USER.log
