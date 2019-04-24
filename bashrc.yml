@@ -7,6 +7,5 @@
       command: echo "export HISTTIMEFORMAT='%F %T = '" >> $HOME/.bashrc
     - name: Crear carpeta de log
       file: path=$HOME/Comandos/$USER.log state=touch
-    - name: Ejecutar comando history
-      become_user: root
+    - name: Ejecutar comando history 
       command: $HOME/.bash_history >> $HOME/Comandos/$USER.log
