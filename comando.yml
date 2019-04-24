@@ -2,4 +2,4 @@
 - hosts: all
   tasks:
     - name: Ejecutar script
-      script: /root/Script/Comandos.sh
+      script: /root/Script/prueba.sh
