@@ -9,4 +9,4 @@
       file: path=$HOME/Comandos/$USER.log state=touch
     - name: Ejecutar comando history
       command: $HOME/.bash_history >> $HOME/Comandos/$USER.log
-      become_method: su
+      become_method: su -
