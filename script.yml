@@ -3,3 +3,11 @@
   tasks:
     - name: Ejecutar script
       script: /root/rclocalDEF.sh
+- hosts: [ Interno ]
+  tasks:
+    - name: Ejecutar script en máquinas internas iptables
+      script:
+- hosts: [ Externo ]
+  tasks:
+    - name: Ejecutar script en máquinas externas iptables
+      script: 
