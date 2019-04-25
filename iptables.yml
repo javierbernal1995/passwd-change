@@ -1,0 +1,5 @@
+---
+- host: all
+  task:
+    - name: Meter reglas en rc.local
+      command: echo "
