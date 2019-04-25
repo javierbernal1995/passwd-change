@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+    - name: Ejecutar script en máquinas externas
+      script: /root/iptablesexternas.sh
