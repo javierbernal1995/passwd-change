@@ -2,12 +2,12 @@
 - hosts: all
   tasks:
     - name: Ejecutar script
-      script: /root/rclocalDEF.sh
+      script: /root/principal.sh
 - hosts: [ Interno ]
   tasks:
     - name: Ejecutar script en máquinas internas iptables
-      script:
+      script: /root/interno.sh
 - hosts: [ Externo ]
   tasks:
     - name: Ejecutar script en máquinas externas iptables
-      script: 
+      script: /root/externo.sh
