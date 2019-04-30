@@ -3,22 +3,6 @@
 ############################VARIABLES##################################
   vars:
     users:
-      - username: "periquito"
-        groups: "periquito"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQZOBXFv6bCKOdKq+3saMzD8plB7lfeRLwQAfTaU/s8rXxiXLX6FR0b/DfeO9za6vl3NUmFeiGeH5Pi3LqGZlYX0T1jlXnwfY1GiLp9n3dgx8iei0I+RXXmlHjxD1MXls1deIpe6HCuA66A10d9cmKfnxpsq/Za/czgl2SvnmyZp2K5cQZ5D5Rwc2UflqVjUQ45iokd3UhoD0h8xnYNT9nZjp0ogn53c4kxWdTJwnrZsbQBqT+JCWYutkTIyJqSLn+rEHVkVa5c7uiuCJ7QgrXiu9opE2xQEAwGdC6F/26dgHssnz9P/pZJAbaNVcpaOo5DizH96dqIqunY0isfdxB periquito@Zevenet"
-        password: ""
-      - username: "periquito"
-        groups: "periquito"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZdyYMAAoz2H30c9OoFvdEC+5K7cFgCSYVJiUsua6otGosYc7mnBKqjaLT8GpTumempKHy2iy1ALWGu6VWVY8suK+8RWH4P3EvS9C2Vy6RU+ARrdh5hhM2wsgcf+xAF8Ixxu6prq7kDuCGVVNLuiPtBI/rrOvrFHmwxHGDs3zUwyVQ5y1jsIwbMXZaZAQ88X2DPFPRkdtWnWoaRdm+GNiL4EuwaHM2AzluxM0KcaNas5p+1OmNRj5tKrYMbRRBcCqefKb/qSprGd5eAQxdawSzWu3sLjys3RUJvddifCneAzOHht6TdycLYl+2y9c7KVg7w4jSrgodj0ZMDBJVKLu9 periquito@Zevenet"
-        password: ""
-      - username: "periquito"
-        groups: "periquito"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDRkr6OVqdYSBOEPZG5ZQchmTFbS/c2sT1SvUstO3l3GYE5iEtiWjmA1WDGDHNHm9Tz/0smCTAEk93sl32659XIO48FqmAvD72W0VVae6f9zxbm4RxYqh8xurNWvtYi9SsRyow2V8JgGxi6fDeQGlq5DQ4DPNtYuksXi0A637uhwgj5y/oltj0DXsmlfp3O0nUvC+q4leIKg0otcS3FWzSynedDMO/kVMGpeEMaXesBUQ9F2WgjR3S0XmdwqgbvZd1hW54pCPPEe9uopd10ehVpVFbisZ9BMBfe7xL+fY4iNJ41vxUmSMyBPNKQ62xtiKLIvXeCPrST4ef9hQrCckXP periquito@Zevenet"
-        password: ""
-      - username: "carmen"
-        groups: "carmen"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMUDVzytdwRDBxpsOXmmyDuCPOcNLUOvVe0KPzCfMoWfJHml/aSpyAuXjevZsu6j0nTgQP0198TNioUqIMyxftsCYzIuNhDj3TjunACz+pLUrW1h66fwv5cVTkE3DqD5wUJXHMfHnxxMGFnxnYNDH12Oy8CIHiKuTjDurGyQOfVqYxcxzA63Ye0z7k6UCQg2Mw0RCjx4q9toJ0/xFjlnU55mm9FLI3wWhkwIiyJyQa4kdHV3qy73WSS/aKKnJ02izK5w/zV+m2vRSEx8Fgv2dQs2MfvXHOPOo3C8xOugCL6mRa3UR+wf5VTddwSlfrxCofOx4s4Ob6NMLFsL1/XVq/ carmen@Zevenet"
-        password: ""
       - username: "mariano"
         groups: "mariano"
         password: "$6$G.gULXDtEmrwF$xKUgrsr8HfMstO6iQ8Esy6Q5EQaK0JrAyTpg2mmcn5fqwD.8Z.Md4/WjgGG8Yf6iMZBJns66AuqNOCdYc.4h/1"
