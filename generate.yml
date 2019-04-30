@@ -3,6 +3,10 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "javier"
+        groups: "javier"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDCaMAiL5ryP5KKSuJlpWJafPRtLro1VIARBW1mMfNRdH5GbSt/vx9efH4kaG1bl8eobaSbv0vydl18muAbNNFEJaQncOKJAxYGueugHh6fX+qROypdaXszmmDH1FOWsMbHmA7+YilTAcAZENopiow7whAR5O/bsz/F8IdLES4Ihl0l8EhWw8p14siUfkVIzX5IQ3pK/gV0oSL7/L8BV7vibNtDYVTK0Mn1dkIBszjY6kgGoNEI0F5lnjtO/IKHjHmZCdZZpan8JqlAztxacAg6x2fRWguVzupwaayIJTpMdpErVUU0ne+7WAxXBadLZabA7Wo5pUbyOruYkCJ6oX5L javier@Zevenet"
+        password: ""
       - username: "mariano"
         groups: "mariano"
         password: "$6$G.gULXDtEmrwF$xKUgrsr8HfMstO6iQ8Esy6Q5EQaK0JrAyTpg2mmcn5fqwD.8Z.Md4/WjgGG8Yf6iMZBJns66AuqNOCdYc.4h/1"
