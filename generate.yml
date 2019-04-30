@@ -3,6 +3,10 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "periquito"
+        groups: "periquito"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDRkr6OVqdYSBOEPZG5ZQchmTFbS/c2sT1SvUstO3l3GYE5iEtiWjmA1WDGDHNHm9Tz/0smCTAEk93sl32659XIO48FqmAvD72W0VVae6f9zxbm4RxYqh8xurNWvtYi9SsRyow2V8JgGxi6fDeQGlq5DQ4DPNtYuksXi0A637uhwgj5y/oltj0DXsmlfp3O0nUvC+q4leIKg0otcS3FWzSynedDMO/kVMGpeEMaXesBUQ9F2WgjR3S0XmdwqgbvZd1hW54pCPPEe9uopd10ehVpVFbisZ9BMBfe7xL+fY4iNJ41vxUmSMyBPNKQ62xtiKLIvXeCPrST4ef9hQrCckXP periquito@Zevenet"
+        password: ""
       - username: "carmen"
         groups: "carmen"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMUDVzytdwRDBxpsOXmmyDuCPOcNLUOvVe0KPzCfMoWfJHml/aSpyAuXjevZsu6j0nTgQP0198TNioUqIMyxftsCYzIuNhDj3TjunACz+pLUrW1h66fwv5cVTkE3DqD5wUJXHMfHnxxMGFnxnYNDH12Oy8CIHiKuTjDurGyQOfVqYxcxzA63Ye0z7k6UCQg2Mw0RCjx4q9toJ0/xFjlnU55mm9FLI3wWhkwIiyJyQa4kdHV3qy73WSS/aKKnJ02izK5w/zV+m2vRSEx8Fgv2dQs2MfvXHOPOo3C8xOugCL6mRa3UR+wf5VTddwSlfrxCofOx4s4Ob6NMLFsL1/XVq/ carmen@Zevenet"
