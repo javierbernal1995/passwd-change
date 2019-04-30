@@ -1,0 +1,56 @@
+---
+- hosts: all
+############################VARIABLES##################################
+  vars:
+    users:
+      - username: "mariano"
+        groups: "mariano"
+        password: "$6$G.gULXDtEmrwF$xKUgrsr8HfMstO6iQ8Esy6Q5EQaK0JrAyTpg2mmcn5fqwD.8Z.Md4/WjgGG8Yf6iMZBJns66AuqNOCdYc.4h/1"
+      - username: "jesus"
+        groups: "jesus"
+        password: "$6$3brTazJLic6yqJ9T$QJPpL1jGYCpQp1JCYMY4yPhFPcUULqDC8dEOkVYgZdMciZ7zXWVoRjkWqXxNzPFJw0hCq11jGnXDyimMoRbSF/"
+    group:
+      - group: "mariano"
+      - group: "jesus"
+  
+######################################################################
+#Comando para encriptar contraseña mediante consola.
+#####apt install whois
+##############mkpasswd --method=SHA-512
+##############Introducir contraseña y te la cifra. Pegar el chorizo en password=******
+#La directiva groups: añade un grupo secundario al usuario. Append lo mete en el grupo aunque el usuario esté creado ya.
+  tasks:
+##################INSTALACIÓN DE SUDO
+  - name: install sudo
+    apt: name=sudo update_cache=yes state=latest
+#####################CREAR GRUPOS MEDIANTE VARIABLE.###########
+######CREA TODOS LOS GRUPOS QUE ESTÁN EN LA VARIABLE GROUP.###################
+  - name: create groups 
+    group: 
+      name: "{{ item.group }}"
+    with_items: 
+      "{{ group }}"
+####################CREA USUARIOS QUE ESTÁN EN LA VARIABLE  USERS CON LOS ATRIBUTOS DE CADA UNO DE LOS USERNAME
+#######################VAMOS AÑADIENDO ITEMS POR CADA USUARIO DIFERENTE
+#######################REALIZAMOS UN BUCLE QUE VA COGIENDO CADA ATRIBUTO = VALOR QUE HEMOS AÑADIDO
+  - name: create users with groups, shell and password.
+    user:
+      name: "{{ item.username }}"
+      group: "{{ item.groups }}"
+      password: "{{ item.password }}"
+      shell: /bin/bash
+      groups: sudo
+      append: yes
+    with_items:
+      "{{ users }}"
+############################DIRECTIVAS PARA EL FICHERO ETC/SSH/SSHD_CONFIG
+  - name: Disable root login
+    lineinfile: dest=/etc/ssh/sshd_config regexp='^PermitRootLogin' line="PermitRootLogin prohibit-password" state=present
+  - name: Disable password authentication
+    lineinfile: dest=/etc/ssh/sshd_config regexp='^PasswordAuthentication' line="PasswordAuthentication no" state=present
+  - name: Enable PAM
+    lineinfile: dest=/etc/ssh/sshd_config regexp='^UsePAM' line="UsePAM no" state=present
+  - name: Disable challenge response authentication
+    lineinfile: dest=/etc/ssh/sshd_config regexp='^ChallengeResponseAuthentication' line="ChallengeResponseAuthentication no" state=present
+  - name: Restart SSH service
+    service: name=sshd state=restarted
