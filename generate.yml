@@ -5,6 +5,10 @@
     users:
       - username: "periquito"
         groups: "periquito"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZdyYMAAoz2H30c9OoFvdEC+5K7cFgCSYVJiUsua6otGosYc7mnBKqjaLT8GpTumempKHy2iy1ALWGu6VWVY8suK+8RWH4P3EvS9C2Vy6RU+ARrdh5hhM2wsgcf+xAF8Ixxu6prq7kDuCGVVNLuiPtBI/rrOvrFHmwxHGDs3zUwyVQ5y1jsIwbMXZaZAQ88X2DPFPRkdtWnWoaRdm+GNiL4EuwaHM2AzluxM0KcaNas5p+1OmNRj5tKrYMbRRBcCqefKb/qSprGd5eAQxdawSzWu3sLjys3RUJvddifCneAzOHht6TdycLYl+2y9c7KVg7w4jSrgodj0ZMDBJVKLu9 periquito@Zevenet"
+        password: ""
+      - username: "periquito"
+        groups: "periquito"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDRkr6OVqdYSBOEPZG5ZQchmTFbS/c2sT1SvUstO3l3GYE5iEtiWjmA1WDGDHNHm9Tz/0smCTAEk93sl32659XIO48FqmAvD72W0VVae6f9zxbm4RxYqh8xurNWvtYi9SsRyow2V8JgGxi6fDeQGlq5DQ4DPNtYuksXi0A637uhwgj5y/oltj0DXsmlfp3O0nUvC+q4leIKg0otcS3FWzSynedDMO/kVMGpeEMaXesBUQ9F2WgjR3S0XmdwqgbvZd1hW54pCPPEe9uopd10ehVpVFbisZ9BMBfe7xL+fY4iNJ41vxUmSMyBPNKQ62xtiKLIvXeCPrST4ef9hQrCckXP periquito@Zevenet"
         password: ""
       - username: "carmen"
