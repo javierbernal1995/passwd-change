@@ -5,24 +5,7 @@
     users:
       - username: "carmen"
         groups: "carmen"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDTMszNf+SXVXp9BN4Pm9X6em+7s6DpbN4BJkww15u9IKdfkoYdVjHiqQesRNQDy3u0tpKDduUdxMY8BtUlCxZKKKV19cXMvks0uPrZPjFFRuGrxvHnfm9/4GNRB1n/rtHWCW04rFI+HS1xZd78cNeCUIptg7CU8KwX6TRGmKNivPZznWuHYG/pin/h38c6wkWYQWANZjHxyWN2W+tS5LTNfbkTMLRLVGlzyf+TMIThSLdiyvyb/JF7Uec+Zs4F9c2FyQQwqxc0c2soUtdDqG2eZC6hfDwq0aPobqfwPa4vWpopvFyFd5hjVi76sxdXFweRcPDbsVtoPcAkTJ9lkP45 carmen@Zevenet"
-
-      - username: "javier"
-        groups: "javier"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCtPM9nbCWRvGegWA/gsBvtwa3dCzgBIcE0E9y6PZC6iMHWwDJbf02sjKrH+XtU7v9YOla6DPQG/UkiFPp9z0cZNZ/Nbi/6t1UiQHK/i/OwhIGcHrr4ODVxF1D73mqm9fXIz8lHpA0iIN5jpT28tNVCzG3fL+y0Zk/zUvVqrb01UIfdqCCFQPQaKlB6Aw1Ci4KrRpwJ4vXBB9p3RNZUTsxVBP+lPrlqffQF+AEf7N5c81yhE748gQ5TeRjM4au5fncIIa/38qU5BaYaXO7cspzwmG+EyO8JUE5qqXbBjG7f2QT5PcW5JTuqDiKRvvLeqaQBscZgIYrSV0Ds/0m4qDND javier@Zevenet"
-
-      - username: "adan"
-        groups: "adan"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJNKtgxzn39sOyPwbPN2zHgVmnUOKOJ8k9Qs7Tcd791WIQzt++79egxLRigTqOn5bI1FfZG5zfBcFjJoPFIj0cvyCoCAv2cIT5DA5HjzObI702I2PxMm+56tYRiaXRnFIGlxnMmxY7/0cck1nsCMpTVwNWADjdVv/jPFxdKcp3PCpRti7vm5xV9mNTrMw5TKmS6wA5oLdoVOzNYPhEK1nClch8p8gjTv6bSmVuLpcCRHSiVND14pLgiGNjhxhPRfphrgKZSAtTZOvmzwZL+OGtihjcReozJqSyAEt0wgNHMY1piuxp1JItf8kIbiLVI9PwFgJ4HbhqmXkw5pdO7rat adan@Zevenet"
-
-      - username: "carmen"
-        groups: "carmen"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFTgZ6J8HeOUDP04gUCbOmlQ8yzYcASPXsizjtUsiWSOq9uzxLk9Ix/tA4OU9UWfq4S12Wf1V6WpVcOLvRXcrkQF6kbBbdZq0sRFxwgyyuZKTvu/MEGhO0dAYU+tbur4nv3pQ6mTL5ovGSe3YY5caDlfpqroWkdCfLLlyp+fW8sKAbGycZDwcLTytgDzQYhDriHu797IXRB4/T848HMLjRqiDuXMtF/fleX0nxOIlRsMduHrxDIGrO0W4BMxVsQNHMrpGcRxNlojX7uT9bFvqJzpFBtdiGFVPCvJqhVXDsA5+N1trtRqUJHyv3/FNC41xuIUyJe9a80L0qQ8yalEON carmen@Zevenet"
-
-      - username: "carmen"
-        groups: "carmen"
-        publica: ""
-
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCimxeLW51JQQiHujYkKDoNW6MbuyPbKSIgMUYx9KKPr0ot6sYSSMX5rthJtbIsOxuA7nYLXTk1l2qatLUREw7EXPxCo4PmbXdd6jhe4x7e2VPVFFnpZHzcKhLgH0Y9klQIO43yCeO0wD7mRIWs8CaVyH3mgbe8xYA/3TrjcyaKitczlyGHbc+i2A4dYp+QD8oxFESCNUVFt33Jk5GJKwOht9X2jL+iR7F9jpYhomZ0E4eFWxiL++91JjQbw7StCmcMhUlUSaAJrGer+YS+4/iUjUpME3MmMNxInqSyxe9TsL70PNHG1SZJQmO1UpNutIPh0EYaBI/5XA6x9F3qUIfp carmen@Zevenet"
       - username: "mariano"
         groups: "mariano"
         password: "$6$G.gULXDtEmrwF$xKUgrsr8HfMstO6iQ8Esy6Q5EQaK0JrAyTpg2mmcn5fqwD.8Z.Md4/WjgGG8Yf6iMZBJns66AuqNOCdYc.4h/1"
