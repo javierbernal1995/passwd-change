@@ -5,8 +5,7 @@
     users:
       - username: "carmen"
         groups: "carmen"
-         publica: ""
-
+        publica: ""
 
       - username: "mariano"
         groups: "mariano"
