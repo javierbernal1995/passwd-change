@@ -5,7 +5,7 @@
     users:
       - username: "carmen"
         groups: "carmen"
-         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJcQV8kvsazaTGopj3tjd2NQqYMjHsRfNS0qfTptcmUjPIqTB23UX417hRGLSCL5Nn7XEsfukQmTykllg0SjBd7r8RkQ/47yhcbPs14b5lYBCCD3qPejquyCY71s98yqGhgTswh7vHB+CNPFb3cVwpXp+uVBf1QBgxbGuIm73gSK/9z6248HSWtORCuDrOJuJkjG1XGGZt842hgHlYWH1KrdktPHk5U9pf/ge0FkpClXfzDv7DD1yx+HdJB1JtdSQ61RaWr7ajddBExRa2XkaCEjhrza5A3n9N039ylFRaPKTjOGx+5Xt83FIks9W/z60ZKj/rhrmxCkT3M/5iWtzz carmen@Zevenet"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC73gDkpOClXVkxu/ZmVK+yUqy/LbntxkNgJxJvUx8PwOYDTdfIopOiTdlgHAoXrkDy+L3x3CgLOss8a2QvHr8Os/EhfTWf2x08fwrujIGX07xs6ikc84jRQ6xIQ1UhNa977lQ/VisuJXH2h8jrPwLn9L+sIdB8JjDGYH+WOvBRQgWkbJmu8YAg27yooz6j96YnhxwAQIsplKa7BVWXRen2ipxA0Mcap6XywkDDk2KSlVCt+29/remY5PFNNGsO4BvnRkY1AN2GOPcO2+TQvmQnSQzLTOrEdGicUPu6JnnLIjrJrrf9/fcIGjoWCr8lC8gZzQeX54dgzMZuRLX4QEgr carmen@Zevenet"
        - username: "mariano"
         groups: "mariano"
         password: "$6$G.gULXDtEmrwF$xKUgrsr8HfMstO6iQ8Esy6Q5EQaK0JrAyTpg2mmcn5fqwD.8Z.Md4/WjgGG8Yf6iMZBJns66AuqNOCdYc.4h/1"
