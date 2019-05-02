@@ -3,6 +3,10 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "adan"
+        groups: "adan"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJNKtgxzn39sOyPwbPN2zHgVmnUOKOJ8k9Qs7Tcd791WIQzt++79egxLRigTqOn5bI1FfZG5zfBcFjJoPFIj0cvyCoCAv2cIT5DA5HjzObI702I2PxMm+56tYRiaXRnFIGlxnMmxY7/0cck1nsCMpTVwNWADjdVv/jPFxdKcp3PCpRti7vm5xV9mNTrMw5TKmS6wA5oLdoVOzNYPhEK1nClch8p8gjTv6bSmVuLpcCRHSiVND14pLgiGNjhxhPRfphrgKZSAtTZOvmzwZL+OGtihjcReozJqSyAEt0wgNHMY1piuxp1JItf8kIbiLVI9PwFgJ4HbhqmXkw5pdO7rat adan@Zevenet"
+
       - username: "carmen"
         groups: "carmen"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFTgZ6J8HeOUDP04gUCbOmlQ8yzYcASPXsizjtUsiWSOq9uzxLk9Ix/tA4OU9UWfq4S12Wf1V6WpVcOLvRXcrkQF6kbBbdZq0sRFxwgyyuZKTvu/MEGhO0dAYU+tbur4nv3pQ6mTL5ovGSe3YY5caDlfpqroWkdCfLLlyp+fW8sKAbGycZDwcLTytgDzQYhDriHu797IXRB4/T848HMLjRqiDuXMtF/fleX0nxOIlRsMduHrxDIGrO0W4BMxVsQNHMrpGcRxNlojX7uT9bFvqJzpFBtdiGFVPCvJqhVXDsA5+N1trtRqUJHyv3/FNC41xuIUyJe9a80L0qQ8yalEON carmen@Zevenet"
