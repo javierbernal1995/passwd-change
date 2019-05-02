@@ -5,6 +5,10 @@
     users:
       - username: "carmen"
         groups: "carmen"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFTgZ6J8HeOUDP04gUCbOmlQ8yzYcASPXsizjtUsiWSOq9uzxLk9Ix/tA4OU9UWfq4S12Wf1V6WpVcOLvRXcrkQF6kbBbdZq0sRFxwgyyuZKTvu/MEGhO0dAYU+tbur4nv3pQ6mTL5ovGSe3YY5caDlfpqroWkdCfLLlyp+fW8sKAbGycZDwcLTytgDzQYhDriHu797IXRB4/T848HMLjRqiDuXMtF/fleX0nxOIlRsMduHrxDIGrO0W4BMxVsQNHMrpGcRxNlojX7uT9bFvqJzpFBtdiGFVPCvJqhVXDsA5+N1trtRqUJHyv3/FNC41xuIUyJe9a80L0qQ8yalEON carmen@Zevenet"
+
+      - username: "carmen"
+        groups: "carmen"
         publica: ""
 
       - username: "mariano"
