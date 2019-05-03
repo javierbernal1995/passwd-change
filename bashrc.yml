@@ -2,4 +2,4 @@
 - hosts: all
   tasks:
     - name: Ejecutar comando de modificación del fichero bashrc
-      script: /root/bashrc.sh
+      script: /root/Script/bashrc.sh
