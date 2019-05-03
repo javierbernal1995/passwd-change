@@ -3,6 +3,9 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "adan"
+        groups: "adan"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDzBmRoxq5ijke8lwWOdaT74iCSh1vZtEDM5f4wSG/6hbO/RermEY9/aLAA1MzEIngaDlEB+ZeUuceXLPJ/IEDAok5+TU/ZWKkDbY9eZ65AvmG3PBbeMYSmkwCatTuaCwck45R2iO4w78uR5caMwvDxrEzi28M5GrBeC5ameHWaNFUx9ukby0oBKyQzToV5rBEE+0zVNBokdKV5/SLrbBZdQ+EJClm6paydK23Wn4jTCyT5KBK60YbrS4+kLrGRvNJGtYTzpFB+T51gpyiec6yjOkeUh4oOJr4rwSn6bfHHg/s/D5/tz8wW4hmjKV9jEO6zbBTrHbgmnfOIXaW4RaRH adan@Zevenet"
       - username: "emilio"
         groups: "emilio"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5Xr9ANrttpdVc0lS6wRPuR1qpCw6SrBNbDa5UmYONLVEt4+t0dqoJOFooc5dkNnl5/F/yPeCEf0yaMiOSYk29Z3+3oDPzCXvhNyx1FqEivq6cHvmMMYI9sraAAIHtIlmrZWJJq1N7c5yONgDh9W+6kT6h7WD4CCWcWcy9By35Xgh304qF4jI1cW/ww7AcZSMw3fq9jVZzGthxMvzI/hQwn9BsmF+UlqGlAyz0QARJgG6pglMkoZZKHD3G/F7Zu1YuNeDWa76FARUXv1e7CEHPBWsE11p9JIYk40bqN8Hts6ep0Y0xfpsBEkHLAn6EeV914iOJkGPTYI3KCSdIs5Z5 emilio@Zevenet"
