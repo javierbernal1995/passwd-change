@@ -5,6 +5,9 @@
     users:
       - username: "javier"
         groups: "javier"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCt5qIWHH3MmfdXEdvAujjWSaSv7UHVE0lYmFEk6S/08Wuv4sQEjteryNjgin2tXXgDwB9OSxfSQqZy/kCE8bSLHS82E5rbdvDw8AYYfXJM+dQXl4EQefmL6IvyMOhR5qFQXiiKR2KUeR5d+y5UV/tXqXHvIK9C/Y5QY/OiPQwOYZiG6PNerMDsTVaQ7ZZINBxQrGLto5U1rFEPfYLJAcA/A+GiB1tv+JJ+B3Mrn5QmxKLcN8iyEUaoJsH6ZlM+lc3o34phYf+pWGyGMrNSNTH3QRUjt8DM79gc7NC1jLEjyXnBCu7oRBKydqMANubs5iRUNFcHHNoUfiQ6VLmaI0F/ javier@Zevenet"
+      - username: "javier"
+        groups: "javier"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHchenmsE3uTjX7KowjOnqQqmlY6sVFhkcRlXenEZFlfDSyUHvRES3VkJ1/vRMtZFjlmuQ0OqCGZmQDDHk0RIzdz+9pMYe+zFySvlBZFf2X+eejZB5yTEyabXkOZFnefrPKSsL8a+rlbSoBx42BBSXqgmT+ZQ4aaM2XIz8NM3j4q0wQkAjH8ikaEZ5D1jMmdmtCm6xp1cvIa3LPBfQL0xIVYPqjwlhQL8zrmD3Rj7MLyBCw7ApYkV6tMyUzih2AeO1N4+hf5aW36IWF9fhibar4VEqQdVPP/sutyNL4YhgvSXRmPZnT5UUWt0OJKbTXYjDF0IMi2v/vVf2UMjLhyRd javier@Zevenet"
       - username: "javi"
         groups: "javi"
