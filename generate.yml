@@ -3,6 +3,9 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "carm"
+        groups: "carm"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqSXgtkta+ElTmKiirkcftnVrEoBqanAmfdpkBjVMyxDY+5qBGkedggHSfVwDFeNbGZwkdLbA5D4IDAYVqwuDk1Scv7dhpdsp92eR+AqChPP6mkYkq9wFNGcJaqNPPBjRBF+DOQTD/v9p0MM0z4PO41k9XCHo/QPH7bm4UY8xVhlup2CJvsCqbObqTCKJn+w/3t/hJNj2fW9A51WZsAZ3BVzmRqL/luXewVC/tRsmo+Fuf0Z+kU+lIquMubVeMQ1LVgqSLZKrAIOZY7xNONAgl73WFZGlsUuKFWICjSt1xlyDfIyMqTiqLjOENmnu8Igjj4IqswSb57mrbSbL4mwRf carm@Zevenet"
       - username: "carmen"
         groups: "carmen"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHwdh2h6lJ6UfbpERMWg96ruHmZJf2/27j8CQ5xACMu2h7xyL/JYYa0ZeNzw7YDe4J74Crvqvuf5nlWnbG88coKtwd70dkiyVp4SvyOGQxKZzGIvlpJQxslVobg6QFSMCgRZGnDefkB8BOK6OsV7nvHyqrUyRb0db5cY8uLILWzTmy810rkjQ00cT8vApckjnfr3MRq0kudWuAtBrHOaIkvl7++SoVSPPUuQpoELo5WwKqDX+STfj4K9hYIPeWQ7UA/93gfL1aq/AMU7SeLq3h4cJhNjt2Cth22EoJD3bGtn/fDyjJ1mtmaCWuwGgejTVYZMPUbCUK+N1e7nytN3xH carmen@Zevenet"
