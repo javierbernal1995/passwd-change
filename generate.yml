@@ -3,6 +3,9 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "javier"
+        groups: "javier"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHchenmsE3uTjX7KowjOnqQqmlY6sVFhkcRlXenEZFlfDSyUHvRES3VkJ1/vRMtZFjlmuQ0OqCGZmQDDHk0RIzdz+9pMYe+zFySvlBZFf2X+eejZB5yTEyabXkOZFnefrPKSsL8a+rlbSoBx42BBSXqgmT+ZQ4aaM2XIz8NM3j4q0wQkAjH8ikaEZ5D1jMmdmtCm6xp1cvIa3LPBfQL0xIVYPqjwlhQL8zrmD3Rj7MLyBCw7ApYkV6tMyUzih2AeO1N4+hf5aW36IWF9fhibar4VEqQdVPP/sutyNL4YhgvSXRmPZnT5UUWt0OJKbTXYjDF0IMi2v/vVf2UMjLhyRd javier@Zevenet"
       - username: "javi"
         groups: "javi"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDptdRbePuyxzKkDM46QwS4L58vv6Bt+FV0Lf891QLVnep2kLeGDlB0ZgZ1wrcxjuTLiUUNnDIL/kOz7/QYVAoE7h6PdEiAqtP6zhypzWiWZKNIICCjq9Ehqmq2PpVOHnnua8Ba9Xg9u2dpY146Eb2ynUvlRWs7HdMeGyPcY2OsaGtylY0FGPRSOsfBv0CDFxN1IJSoWMEuwHsJrZ8G+5Lx38bWWWXlW6/s3ZaXuTk6sFqtuTvuWKidCoakpRll43saUXALYXMbhS0cYd5ohgGgjXVvH+oMrAxA5xQObXgX8DAFIltoP9f4hywyE5GKUtDZnS91SOCkGU9P/XMFHB5/ javi@Zevenet"
