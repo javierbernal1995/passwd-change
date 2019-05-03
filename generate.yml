@@ -5,6 +5,9 @@
     users:
       - username: "carmen"
         groups: "carmen"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHwdh2h6lJ6UfbpERMWg96ruHmZJf2/27j8CQ5xACMu2h7xyL/JYYa0ZeNzw7YDe4J74Crvqvuf5nlWnbG88coKtwd70dkiyVp4SvyOGQxKZzGIvlpJQxslVobg6QFSMCgRZGnDefkB8BOK6OsV7nvHyqrUyRb0db5cY8uLILWzTmy810rkjQ00cT8vApckjnfr3MRq0kudWuAtBrHOaIkvl7++SoVSPPUuQpoELo5WwKqDX+STfj4K9hYIPeWQ7UA/93gfL1aq/AMU7SeLq3h4cJhNjt2Cth22EoJD3bGtn/fDyjJ1mtmaCWuwGgejTVYZMPUbCUK+N1e7nytN3xH carmen@Zevenet"
+      - username: "carmen"
+        groups: "carmen"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDeRp6E3vmsM0aUS94KwnnyR76HQK6bFmirEW4/K1GwQGYR5Ozp2SZKlkE9d2qOK5Lglsd/9tcd+K1Yj6Qs/cYm5HGFbDidQuuaM+/UF8j7SIozXNjTF00kxulESUvI0d8BuM4P4V4kutAT0OvXj3n6g/R6naQ35MAlNoo/pXKxHvT6T3du2ue/ZWXL+HUBruZ5nOYySDNeflABvfXymUmjfUw3qn89CEu+oYqNmXO/Bej1zi5N0SWyxamvOuUfoyL+dY6isH1ZD4DILIHk+AIWfPy3XrtSCvGVz1sjV1mnj071PVpcVVAm/mlgIviFqV/rko5q/iR33Lk/BWp7r0k7 carmen@Zevenet"
       - username: "mariano"
         groups: "mariano"
