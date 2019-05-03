@@ -1,5 +1,5 @@
 ---
 - hosts: all
   tasks:
-    - name: Bashrc
-      command: echo "export PROMPT_COMMAND="source $HOME/.bashrc" if [ ! -d $HOME/history/ ] then mkdir $HOME/history fi history > $HOME/history/`date +%y%m%d`-$USER.log"
+    - name: Ejecutar comando de modificación del fichero bashrc
+      script: /root/bashrc.sh
