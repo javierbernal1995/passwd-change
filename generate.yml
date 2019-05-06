@@ -5,6 +5,9 @@
     users:
       - username: "jose"
         groups: "jose"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDLCplF7g1mzfpHTyp7fcpNss+Tqzhks6BLHhP2dcumsTFlsWvaYOCRAFsmRAgEn8Ho9vbSlLLiPtNPZKrvSrUu8qXOsawSfqjPjmrOIcRPTBlbRWP5g3iXohuQcbiTXUb+Bb10sig+IbTsmgWoQA6oF0piVSJbzk68wg2VHL4P1hbRAZbhbIVOQkKQdg6bBN22e2luLFTov3rnPSCdvOakDGlY+6yYSDentVvPpkaEgnUU7mHHksVf7fLDWRwf7Dc12CJicmYIT8lWXywDz31kuH5jc6C+PjgNv9cXgKuadnXcUqmNqvLEOn/bRrQrSv9N3CFRkDds6pBwBKeXuEf9 jose@Zevenet"
+      - username: "jose"
+        groups: "jose"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHaLaKTU4g1OuDGYCr27rzeccDBs6npnCA7/u7t1GKr8h5nthYCqR+ygINvVqFZ22tUrlI0UqAuybFpdbok7FebJA/tXyvSsSOFK4hubuoNbK37ZVUR9NVrjmnOXyufFbm1+G+ezXiUf6N7zVS7HXM6Yw7MIw6EOaBBZNmtDHnBQAjW5XxWYa0LUKXHozhT+A7IeCYY1qJpRVzVA4GlB//l7bTDse/z87vIAt1zh9zyp2hYID7BXw0qq4wISz7Y1YfUBvb26R6dqswiWNtVgJAuJrgQD/TKiQyLSVEFwI/0hH5lmv2Y2PdlSo0OxLy8VYBlTMNqPa9wPvrylkQaUyR jose@Zevenet"
       - username: "javierrr"
         groups: "javierrr"
