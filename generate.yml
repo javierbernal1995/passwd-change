@@ -3,6 +3,9 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "maria"
+        groups: "maria"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDT/IerDb+PoKTe5v+GvZSOtmsq65rM/sqtGI8k4/MJX55ZxNwnvhNch2emZWIqSF4uzsPsP5O/On1eKg9Ea9djlZ82LPmbsSBAUskDr5hWRuKUUazmmeD3mOPL9NuvGQ5yJxj9U8e64s6Umi4WCzbzfb/QMHGP6wCD55tzSzFlBhx7GNJoac7sX1ZLJh54sQxXEIwiJUGJRcOoZ2RKZZJbNALTFWUAPf/z0Fkdmos47zNiJVuUbDE5ZD3kwpknblF/VbCYfQNfhDItdugq+gwV8l+2II/CB7eWIMuqPhRO7fVMOZp/LpvvhkfHYHHJLrhK6J+trQ3uXh16zT3Dp2PD maria@Zevenet"
       - username: "carmela"
         groups: "carmela"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCuCf6Hcr4fbYhH4HdkDoUxZ6MCI3170vt81VRqqmQgiwWtdbImKMCQedooqjO8Ue44IylwiE2gs+GJuFd8qJ/koyhRMDME+XxiFCa/X8GplnIccVwk5LhzkM8UWPmWv8/zESPakezN3LWIfQ8aUBBvZrEk1uuzajB6JtCnxU8DlbGi1W9Ryhc1xyT7RHjLEOF8iImHFASBVB9ndusDSHRsNURNb/IjHwBOt1G73ZcrpEUSqswYKLXDYkHAh2CA7TML26Wn+vCw5z9Hm6raeRYC05ZNCeOcMOG4HSuNzThs0/xEf305JvTNizpcHay8UCOF1Jt4F4Anu+mY2Op7s919 carmela@Zevenet"
