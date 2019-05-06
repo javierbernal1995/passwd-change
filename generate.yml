@@ -3,6 +3,9 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "rufo"
+        groups: "rufo"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDbGH9qA1CcuWVwg7qQW1/L66C+HkKOfDdHSq8FTkg31KT9+E9V2i/anj+9gm4VCEhENTuclfCo5GbeDnGk6whYEMvlt2gfO77pMWu5XyrDVi6mBBvuo+ZXh02e+yaGeE8vwe+x/m4h4s+fZtv1drPLKnxAOTyMof45RJ6ETyMEL1sRX+BsETzaLdYRncNneEA27NTfgBZNdUvufxINHvD2eyyigD0klhTMxOTCFW2mUzyDF/AWJW/NXZwNzEIdVK4dpb1JtK7pU7XlKDZttpcx+RI3bqsWEi3NLIGK6ZU3yzIqKtm8HGSlwxgnV6eySxttKFxVw6Sr9BWAYRAFX08d rufo@Zevenet"
       - username: "jose"
         groups: "jose"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDI5M5Kn5jRhFzO3tH3kFMk/UEakjuqk50yrcQf/5TFyGiEtrQEs+1BguRFKry7gk1C9P99rhaQlyKJBL44Iug2kt02tAIfNWUGqVbuAfw+99bp1Iu1+yFT+2h/u7JX1YPilpV1y/PSapNpR8XCOmkU9j9yymQfn1m1Bh8Bl7RutIuVdjcIEHq/tPE6Ak04sMtBssfwwq1sMEwc9FeTyxJTJu06X9vGbKf2p63Aqlfnk4xL3E4Yqc5eMVGYgew2Vxrw90fWURerrgWhZ1JRVXdmookouGMsVKpV/3St9QILezToy2gEz6UB/uC8UefJ50T+aBXhPQXA+ACQwYoBDUyJ jose@Zevenet"
