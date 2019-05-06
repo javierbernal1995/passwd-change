@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: all
   tasks:
     - name: Ejecutar script de claves amazon
       shell: "bash /root/Script/amazon.sh carmelita carmenmaria.rufo@sofintel.net"
