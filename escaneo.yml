@@ -13,11 +13,6 @@
       state: latest
     with_items:
     - libopenscap8
-    - ssg-base
-    - ssg-debderived
-    - ssg-debian
-    - ssg-nondebian
-    - ssg-applications
 
   - block:
     - name: run openscap
