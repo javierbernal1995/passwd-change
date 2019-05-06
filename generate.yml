@@ -5,6 +5,9 @@
     users:
       - username: "maria"
         groups: "maria"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCllj+j3xEBCvuyObFyYRVv7ZNG0p0Nq59trLwTfwtXsJEnCGQh3t2F9NXTl5paKFu04h1QFHoCU75+evvwfKSXyPhXcgrcGSKCgd8x6UDfLtOr9VPkofZ1tLmyJR4mcQaomJ0r/3ov1Stz2EHujc5eBwK6t5+z7CUlbqHchvPBbEFmqA5K6tSKLw9NgkRr3AOap0ES/RBfIjIWSk8mLZUXMWmZzWht+R6ME0KzqD97YKXFa2o6N0kmu199ytSkYPLYYpF7hyfBn2wh64lp+7QiEjj9cv/iyvRvKE/WBQqhGclvAP9CkwCxagOXHZ9TVbaYOc5vzgeTcM9jln8dNFir maria@Zevenet"
+      - username: "maria"
+        groups: "maria"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDT/IerDb+PoKTe5v+GvZSOtmsq65rM/sqtGI8k4/MJX55ZxNwnvhNch2emZWIqSF4uzsPsP5O/On1eKg9Ea9djlZ82LPmbsSBAUskDr5hWRuKUUazmmeD3mOPL9NuvGQ5yJxj9U8e64s6Umi4WCzbzfb/QMHGP6wCD55tzSzFlBhx7GNJoac7sX1ZLJh54sQxXEIwiJUGJRcOoZ2RKZZJbNALTFWUAPf/z0Fkdmos47zNiJVuUbDE5ZD3kwpknblF/VbCYfQNfhDItdugq+gwV8l+2II/CB7eWIMuqPhRO7fVMOZp/LpvvhkfHYHHJLrhK6J+trQ3uXh16zT3Dp2PD maria@Zevenet"
       - username: "carmela"
         groups: "carmela"
