@@ -6,7 +6,6 @@
     oscap_policy: ssg-debian-dss
 
   tasks:
-
   - name: install openscap scanner
     package:
       name: "{{ item }}"
