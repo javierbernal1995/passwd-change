@@ -3,21 +3,6 @@
 ############################VARIABLES##################################
   vars:
     users:
-      - username: "javi"
-        groups: "javi"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDnzt33kfhdzYhy+scePNBVHWAaE6CcOw1ZS+ocTivN73QQ/7RJ2mZ/bJTc8zNYpNWIHoQtjXMfaynSdNBQHfywY4h6uqiurI48LZM14MjgnVqg2EUKq2IagxJw9yVxG3lUpjT54LFesBW3GD0sK2c/g1pe3ctWrOt8qeqw+2xv8ik9GJwVBNxz6ngolqimlKm2zFLLllPnYd8E0XTnTg4ibBBUjqmLIkgGptaUxEo7x9+FaXCTuzaOQDm+Brxjo49XMw7RzTBZmklcl16BNa4FAvp/kWL2d1SQzTsXOqzwYOj+exvAtLSed1Y4oFgig9FVbsDdB5IduwgOBVW0zYa5 javi@Zevenet"
-      - username: "carmennnnnnn"
-        groups: "carmennnnnnn"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDLlW0d6BoJoxrOBbd/z4+GSHf11iV6fj6det5mqLKL0E3oUa1fTsf8WR1QeviWPqo9+QzebSgXx1t0N9BMXJmg8fYtJqz9NG53mhJWNHlobt2W4MjSgi/sPuMz23kGABNsdF8lxK3ID7mWDs3f/sb2vcJPvre98gWF9zD4uQ/6BGJubru7eX9aaXc1XLiBBFcv7aPgB1+U+CQ4cye8cOB04g6PFhaI5jvcSFUIUsfRdO2VUOaUt84bgRgPgfTXi6V9cN/ZuidlvJReU2mkOB1a7hgO34rEZqJYSBlrESClCY4f1oeUEi/Yqc0XPUoZKSWeygj1ahK5+1X8qpl4qz/V carmennnnnnn@Zevenet"
-      - username: "maria"
-        groups: "maria"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCllj+j3xEBCvuyObFyYRVv7ZNG0p0Nq59trLwTfwtXsJEnCGQh3t2F9NXTl5paKFu04h1QFHoCU75+evvwfKSXyPhXcgrcGSKCgd8x6UDfLtOr9VPkofZ1tLmyJR4mcQaomJ0r/3ov1Stz2EHujc5eBwK6t5+z7CUlbqHchvPBbEFmqA5K6tSKLw9NgkRr3AOap0ES/RBfIjIWSk8mLZUXMWmZzWht+R6ME0KzqD97YKXFa2o6N0kmu199ytSkYPLYYpF7hyfBn2wh64lp+7QiEjj9cv/iyvRvKE/WBQqhGclvAP9CkwCxagOXHZ9TVbaYOc5vzgeTcM9jln8dNFir maria@Zevenet"
-      - username: "maria"
-        groups: "maria"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDT/IerDb+PoKTe5v+GvZSOtmsq65rM/sqtGI8k4/MJX55ZxNwnvhNch2emZWIqSF4uzsPsP5O/On1eKg9Ea9djlZ82LPmbsSBAUskDr5hWRuKUUazmmeD3mOPL9NuvGQ5yJxj9U8e64s6Umi4WCzbzfb/QMHGP6wCD55tzSzFlBhx7GNJoac7sX1ZLJh54sQxXEIwiJUGJRcOoZ2RKZZJbNALTFWUAPf/z0Fkdmos47zNiJVuUbDE5ZD3kwpknblF/VbCYfQNfhDItdugq+gwV8l+2II/CB7eWIMuqPhRO7fVMOZp/LpvvhkfHYHHJLrhK6J+trQ3uXh16zT3Dp2PD maria@Zevenet"
-      - username: "carmela"
-        groups: "carmela"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCuCf6Hcr4fbYhH4HdkDoUxZ6MCI3170vt81VRqqmQgiwWtdbImKMCQedooqjO8Ue44IylwiE2gs+GJuFd8qJ/koyhRMDME+XxiFCa/X8GplnIccVwk5LhzkM8UWPmWv8/zESPakezN3LWIfQ8aUBBvZrEk1uuzajB6JtCnxU8DlbGi1W9Ryhc1xyT7RHjLEOF8iImHFASBVB9ndusDSHRsNURNb/IjHwBOt1G73ZcrpEUSqswYKLXDYkHAh2CA7TML26Wn+vCw5z9Hm6raeRYC05ZNCeOcMOG4HSuNzThs0/xEf305JvTNizpcHay8UCOF1Jt4F4Anu+mY2Op7s919 carmela@Zevenet"
       - username: "mariano"
         groups: "mariano"
         password: "$6$G.gULXDtEmrwF$xKUgrsr8HfMstO6iQ8Esy6Q5EQaK0JrAyTpg2mmcn5fqwD.8Z.Md4/WjgGG8Yf6iMZBJns66AuqNOCdYc.4h/1"
