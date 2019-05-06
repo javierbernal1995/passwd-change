@@ -3,21 +3,6 @@
 ############################VARIABLES##################################
   vars:
     users:
-      - username: "rufo"
-        groups: "rufo"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDbGH9qA1CcuWVwg7qQW1/L66C+HkKOfDdHSq8FTkg31KT9+E9V2i/anj+9gm4VCEhENTuclfCo5GbeDnGk6whYEMvlt2gfO77pMWu5XyrDVi6mBBvuo+ZXh02e+yaGeE8vwe+x/m4h4s+fZtv1drPLKnxAOTyMof45RJ6ETyMEL1sRX+BsETzaLdYRncNneEA27NTfgBZNdUvufxINHvD2eyyigD0klhTMxOTCFW2mUzyDF/AWJW/NXZwNzEIdVK4dpb1JtK7pU7XlKDZttpcx+RI3bqsWEi3NLIGK6ZU3yzIqKtm8HGSlwxgnV6eySxttKFxVw6Sr9BWAYRAFX08d rufo@Zevenet"
-      - username: "jose"
-        groups: "jose"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDI5M5Kn5jRhFzO3tH3kFMk/UEakjuqk50yrcQf/5TFyGiEtrQEs+1BguRFKry7gk1C9P99rhaQlyKJBL44Iug2kt02tAIfNWUGqVbuAfw+99bp1Iu1+yFT+2h/u7JX1YPilpV1y/PSapNpR8XCOmkU9j9yymQfn1m1Bh8Bl7RutIuVdjcIEHq/tPE6Ak04sMtBssfwwq1sMEwc9FeTyxJTJu06X9vGbKf2p63Aqlfnk4xL3E4Yqc5eMVGYgew2Vxrw90fWURerrgWhZ1JRVXdmookouGMsVKpV/3St9QILezToy2gEz6UB/uC8UefJ50T+aBXhPQXA+ACQwYoBDUyJ jose@Zevenet"
-      - username: "jose"
-        groups: "jose"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDLCplF7g1mzfpHTyp7fcpNss+Tqzhks6BLHhP2dcumsTFlsWvaYOCRAFsmRAgEn8Ho9vbSlLLiPtNPZKrvSrUu8qXOsawSfqjPjmrOIcRPTBlbRWP5g3iXohuQcbiTXUb+Bb10sig+IbTsmgWoQA6oF0piVSJbzk68wg2VHL4P1hbRAZbhbIVOQkKQdg6bBN22e2luLFTov3rnPSCdvOakDGlY+6yYSDentVvPpkaEgnUU7mHHksVf7fLDWRwf7Dc12CJicmYIT8lWXywDz31kuH5jc6C+PjgNv9cXgKuadnXcUqmNqvLEOn/bRrQrSv9N3CFRkDds6pBwBKeXuEf9 jose@Zevenet"
-      - username: "jose"
-        groups: "jose"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHaLaKTU4g1OuDGYCr27rzeccDBs6npnCA7/u7t1GKr8h5nthYCqR+ygINvVqFZ22tUrlI0UqAuybFpdbok7FebJA/tXyvSsSOFK4hubuoNbK37ZVUR9NVrjmnOXyufFbm1+G+ezXiUf6N7zVS7HXM6Yw7MIw6EOaBBZNmtDHnBQAjW5XxWYa0LUKXHozhT+A7IeCYY1qJpRVzVA4GlB//l7bTDse/z87vIAt1zh9zyp2hYID7BXw0qq4wISz7Y1YfUBvb26R6dqswiWNtVgJAuJrgQD/TKiQyLSVEFwI/0hH5lmv2Y2PdlSo0OxLy8VYBlTMNqPa9wPvrylkQaUyR jose@Zevenet"
-      - username: "javierrr"
-        groups: "javierrr"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDV+plpzrVmD6LxvH1ZJB6JnSKLTN1+qQaRpdM2tW6wn7eRShyB1urI0CyyM0/rCeDGc1eaF2+04LbU6ETLbkPbvZogQ1MRsjmrNzQgDPfvtm9VpTH7D9JViCAsj49Gk7refblRHctWmnz+2UVs5CO6bdyJiysf3Ylh2joDdKrQka0aERNgkMPl10kGiFD8rOyZpMuNfExhnBdwdNIxg7X6132Y1UwBxwkk9tlh3EqiaWV2KbSCLCeHxgpVQRZIAFnsiRfUOzo0Ev1zOaBDmEWZiU/WpEps2iNsQd1bCMz+0vVwa0vq3JJJUK+RkwxW5QQoon0sWznlx7JYiqiGGFPB javierrr@Zevenet"
       - username: "mariano"
         groups: "mariano"
         password: "$6$G.gULXDtEmrwF$xKUgrsr8HfMstO6iQ8Esy6Q5EQaK0JrAyTpg2mmcn5fqwD.8Z.Md4/WjgGG8Yf6iMZBJns66AuqNOCdYc.4h/1"
