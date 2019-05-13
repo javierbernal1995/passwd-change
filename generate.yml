@@ -3,6 +3,9 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "emilio"
+        groups: "emilio"
+       publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDsJSR++zwWpddqQF3Zv+gh//vE4j1qQrU8+Tx5CI+I3DPPNDJRR4NmKMR6uFa+CNtBU5niNvB4tF8bQg47c4Euo4Invd6HB/LkvcnydhOnamGU1XYoE+PCqvMQFfXGiNRmra3Oc4yU3Uwv9N3RbfwAzWypt9ekOrWcsqUFdRMYuF/R1osW5XvhAdxgSY/ixQH9VdeiuXRiFPrBPAZBC/TjjRiv0u5YJYndHpp0Gpqfgh4b26ehjnKGXD/mplGeWYginYVRuxxdFuIPW2xgkO5znEJX0LzhlA2liAHV0iIB9IPrGhRioJ2RecFJGzEc5Da1CEuQrpv1u/T8oEd+kpcf emilio@Zevenet"
       - username: "keisuke"
         groups: "keisuke"
        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC26lxi8cO8Y8ojnQGVJ/vkQwC+54hld/+CWGKMipDsnOYcDB38uKBAyTU5gP+qKThNojZSzEEhCtCUw09rGa8LlQE8u5p7htwuKYUNnDyxHrRzkPcFxNqEzB3+04ZUacrWpR5fcXcDUIib2c8YgDjR6gZus+2hbUJbj3SXbV7GWNdXa93jVFKFsWOohuvEu28KHgRBxGAIjMyQfq1XTWbmvsBIQDLtM91JgzI8ebjBFmsKa8EM1LfhsJYjG50uVzeAYLNiv+cOPjqtkNGcve2/xtr4a32cQvkPW2suds12Sm26rYMtynLJoyXft44MA8yM+nksqJe9ym8KhT6cPGL3 keisuke@Zevenet"
@@ -13,6 +16,7 @@
         groups: "javier"
          publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5ClBYo3RD+766tPfg1JvhY4s6/V5/P3/FwKYCzwck28cuWaw2IPqtkWVYdXPqqC2I8Bvk35xguHkpaAteVUM6snryImJHkQR5KOzY2l3C9Vn7xaFyiXczcb0QHv+MgN+SVydY0R13iPOwFWRAdUKnPrKroI4U0ceIBN15FSZU8gsK+VMA1g32LGkPyiIAguyMI6i9qVhTJsv+vGai1wrq0Ofr/NWXtmXSCqgBZq8FkXfpIRQfXhhN1nTJHDZLoFKOST5vz/Bx7wgvI10hbBVZUHXClj/qvqj9q6bgsssbM2+gKWBeacXduT5by6fgubntHN7PYHG1NvRqHlMMvagP javier@Zevenet"
     grupo:
+      - group: "emilio"
       - group: "keisuke"
       - group: "carmen"
       - group: "javier"
