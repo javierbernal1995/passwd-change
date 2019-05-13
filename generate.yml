@@ -3,25 +3,10 @@
 ############################VARIABLES##################################
   vars:
     users:
-      - username: "jose"
-        groups: "jose"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCyAWgI3WI49S5e057MkE/4iemomhC8FWhWOnRIBian+U16Iljp5qDr9gx37lzBbuou6rAdChEdWzKEyA1YXHIwvZlas0G89BJivhJ7cQtLZbp7O5vCyPGKkcnfBO1FI/CS0YhDJDP06uEOKgcrodv6u9GCmJP0p1nmJUVMIH38UfToc951PavGSRTudgaZ2ORdzRdA4Est5lpcDJfBh5BJ1L84k+XQ5djA6gpMyR1EtzNXJoNApGfXrkiPln/AcD6TxEMgQkJH87aoNHgfBJL1Q+iBe9vI4wECIqkJ36xXRyd4vIRaMaty60lZBym45Q5e43xIwgEEM6UvV0D5IWl9 jose@Zevenet"
-      - username: "mariano"
-        groups: "mariano"
-        password: "$6$G.gULXDtEmrwF$xKUgrsr8HfMstO6iQ8Esy6Q5EQaK0JrAyTpg2mmcn5fqwD.8Z.Md4/WjgGG8Yf6iMZBJns66AuqNOCdYc.4h/1"
-      - username: "jesus"
-        groups: "jesus"
-        password: "$6$3brTazJLic6yqJ9T$QJPpL1jGYCpQp1JCYMY4yPhFPcUULqDC8dEOkVYgZdMciZ7zXWVoRjkWqXxNzPFJw0hCq11jGnXDyimMoRbSF/"
     group:
-      - group: "mariano"
-      - group: "jesus"
+
   
-######################################################################
-#Comando para encriptar contraseña mediante consola.
-#####apt install whois
-##############mkpasswd --method=SHA-512
-##############Introducir contraseña y te la cifra. Pegar el chorizo en password=******
-#La directiva groups: añade un grupo secundario al usuario. Append lo mete en el grupo aunque el usuario esté creado ya.
+#####################################################################
   tasks:
 ##################INSTALACIÓN DE SUDO
   - name: install sudo
@@ -40,7 +25,6 @@
     user:
       name: "{{ item.username }}"
       group: "{{ item.groups }}"
-      password: "{{ item.password }}"
       shell: /bin/bash
       groups: sudo
       append: yes
