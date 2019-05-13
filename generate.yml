@@ -3,7 +3,7 @@
 ############################VARIABLES##################################
   vars:
     users:
-    group:
+    grupo:
 
   
 #####################################################################
@@ -17,7 +17,7 @@
     group: 
       name: "{{ item.group }}"
     with_items: 
-      "{{ group }}"
+      "{{ grupo }}"
 ####################CREA USUARIOS QUE ESTÁN EN LA VARIABLE  USERS CON LOS ATRIBUTOS DE CADA UNO DE LOS USERNAME
 #######################VAMOS AÑADIENDO ITEMS POR CADA USUARIO DIFERENTE
 #######################REALIZAMOS UN BUCLE QUE VA COGIENDO CADA ATRIBUTO = VALOR QUE HEMOS AÑADIDO
