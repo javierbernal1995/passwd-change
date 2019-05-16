@@ -1,5 +1,5 @@
 ---
 - hosts: all
   tasks:
-    - name: Ejecutar comando de modificación del fichero bashrc
-      script: /root/Script/bashrc.sh
+    - name: Mover archivo bashrc al directorio /etc/profile.d/
+      copy: src=/root/Script/bashrc.sh dest=/etc/profile.d/ 
