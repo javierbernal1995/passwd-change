@@ -1,0 +1,5 @@
+---
+- hosts: all
+  task:
+    - name: Meter claves públicas en fichero /.ssh/authorized_keys/
+      authorized_key: user=javi state=present key=|1|tR13pd+w4Z7hoXbiMwJbTfPx1AU=|4OhZ/jKZpG6nVcPz4VeDG0J8E9w= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJypd1/gXBoScR/n6qt5h+ZLVsuOf1P5vpJxAmd1xOs3HYP5GyshQucc29llOO2UDGePQ8z14H4ygEaoLNPPk7E=
