@@ -1,0 +1,59 @@
+---
+- hosts: all
+############################VARIABLES##################################
+  vars:
+    users:
+    grupo:
+
+  
+#####################################################################
+  tasks:
+##################INSTALACIÓN DE SUDO
+  - name: install sudo
+    apt: name=sudo update_cache=yes state=latest
+#####################CREAR GRUPOS MEDIANTE VARIABLE.###########
+######CREA TODOS LOS GRUPOS QUE ESTÁN EN LA VARIABLE GROUP.###################
+  - name: create groups 
+    group: 
+      name: "{{ item.group }}"
+    with_items: 
+      "{{ grupo }}"
+####################CREA USUARIOS QUE ESTÁN EN LA VARIABLE  USERS CON LOS ATRIBUTOS DE CADA UNO DE LOS USERNAME
+#######################VAMOS AÑADIENDO ITEMS POR CADA USUARIO DIFERENTE
+#######################REALIZAMOS UN BUCLE QUE VA COGIENDO CADA ATRIBUTO = VALOR QUE HEMOS AÑADIDO
+  - name: create users with groups, shell and password.
+    user:
+      name: "{{ item.username }}"
+      group: "{{ item.groups }}"
+      shell: /bin/bash
+      groups: sudo
+      append: yes
+    with_items:
+      "{{ users }}"
+############################DIRECTIVAS PARA EL FICHERO ETC/SSH/SSHD_CONFIG
+  - name: Disable root login
+    lineinfile: dest=/etc/ssh/sshd_config regexp='^PermitRootLogin' line="PermitRootLogin prohibit-password" state=present
+  - name: Disable password authentication
+    lineinfile: dest=/etc/ssh/sshd_config regexp='^PasswordAuthentication' line="PasswordAuthentication no" state=present
+  - name: Enable PAM
+    lineinfile: dest=/etc/ssh/sshd_config regexp='^UsePAM' line="UsePAM no" state=present
+  - name: Disable challenge response authentication
+    lineinfile: dest=/etc/ssh/sshd_config regexp='^ChallengeResponseAuthentication' line="ChallengeResponseAuthentication no" state=present
+  - name: Restart SSH service
+    service: name=sshd state=restarted
+############### Modificar etc profile.d para hacer modo auditoría  
+  - name: Mover archivo bashrc al directorio /etc/profile.d/
+    copy: src=/root/Script/bashrc.sh dest=/etc/profile.d/ 
+######################## Módulo de iptables genéricas, según hostname y según grupo externo e interno
+  - name: Ejecutar script en todas las máquinas
+    script: /root/principal.sh
+    
+- hosts: interno
+  tasks:
+  - name: Ejecutar script en máquinas internas
+    script: /root/interno.sh
+    
+- hosts: externo
+  tasks:
+  - name: Ejecutar script en máquinas externas
+    script: /root/externo.sh
