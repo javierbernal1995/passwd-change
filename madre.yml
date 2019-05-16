@@ -3,7 +3,11 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "ermenegildo"
+        groups: "ermenegildo"
+       publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGDLuQQIbmdAmzVc3WLJlg9kfexT8e2b3Fwmr5XnmIH+9pXrAviWhuvLNUehhWvyyUw94aPRx3o7bRu7VhCZsjV3vhd0M8MM40h4qwBJUqFPfI36Er3w22Ktv+wpefLRwSCwmXwjAlcUuXQskotLoYQk5j6ot774b9MTUipZUUZcSU++Z+OJ43zrqGZkk8MLO7dWzhIYGDj8Bcz/0F1+B03HcrwcuRPHpYVvqGteiZ1LEy4BxOzaYaPKYYfxbUy6DahKDqLO/h9TCgstHdRJCK3PiugraSUl5ktU0PvA5bB9VV1Q4bQ2X1aZtHWkfLdwXuLUZcImbCh23WItpkjrJl ermenegildo@Zevenet"
     grupo:
+      - group: "ermenegildo"
 
   
 #####################################################################
