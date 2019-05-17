@@ -3,15 +3,8 @@
 ############################VARIABLES##################################
   vars:
     users:
-      - username: "carmen"
-        groups: "carmen"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9g0syPPTha58tMbXRfzwHLb7OyIPrN5y8EborvNde12DBPTvmwyb4gJrW/oBCGhbGO/sFT74Mg8H7IRqgO8Xf7QV0ASiwOKiHB4Y22JKmRYqYnziOBgTQJ2lDNQwMsR7fe6x8SzgvNpR7s6cDgKLCyzUXjciONP4uu1tr4/iTYd+Bclc8z4zHhk3Rnj59dPJyfP5D+OoviSHMe+PvHOPNaTVOBf24llSKTXzeJPw5jvjxRIf2TtWOtlYhUYKIxcZWnv80Io7gNmxAY8E9xy5akn+3SMYzQt7lH9Eo/XG1bKt5x/kKyHbmV6seAmXkOoPP+X65UcIAVHT9xcJ1SEDH carmen@Zevenet"
-      - username: "ermenegildo"
-        groups: "ermenegildo"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDY69Wf+TfTD2NbxKT1PiIRIoRtLJerPtBCHu739WWWv2Tie/vfQWgek8/wW5i5z14C94EXKYY1JkhhH+heDR4VC+9XNHe1j1JenNPVQ1dXnG549qlwuvgAKqe2grWOOw9QsyOmfyDfpeGDUIrPEVdBbLAAwlPK0E63uXJrll1hsRhX1yT0AqFqKPyJYF7JDqVnSgyM7zWOwjZ+vuGUeKPLM93792cWQHtIxX76K1eEEeSDJd64DsiVuuMLMefX2Vv2pX7YeiclGyj6psD01J3qD1Qi3nrlMJf9S130vv6EKcoBWzBLPsA6QOIujoe1WdVcIxvsoViHJTpEpXiIYtkH ermenegildo@Zevenet"
     grupo:
-      - group: "carmen"
-      - group: "ermenegildo"
+
 
 
 
