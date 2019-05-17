@@ -42,10 +42,7 @@
       "{{ users }}"
   - name: meter la clave pública
     sudo: yes
-    authorized_keys: 
-      user= "{{ item.username }}" 
-      state=present 
-      key= "{{ item.publica }}"
+    authorized_keys: user= "{{ item.username }}" state=present key= "{{ item.publica }}"
     with_items:
       "{{ users }}"
     
