@@ -3,7 +3,11 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "adan"
+        groups: "adan"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD1HSzIsz6cjqs3kBJR64l56vTv0E0Koq13hEQyiCkI9zZL6DlMaZzZR7bglyx7RdAowgvrvhx4aa/yfmAgTmUhy1xOZfldZlhMJhZ/v2ko/erM142eSSaDmDpJ+VvzZ4Vi8MGvgRxVlj3YKGVO8hPKPPFIGqnQP56gszC1jeIpIKSDXwpn9cmOT+yV0Ic0AETUGuFH7uZ3FgShSneRg7o19hCyGunqsu5FcUddJx9XphKVDlH0E1mqEbOWrHY+WiKN8bIbrXGQNODWGF93gvLfR+9RI/QUg9RH80/wcPTrVfC5ZcMdkrBeBRKi2avlYeNFY8M5ecgh/wYY0xfuF85h adan@Zevenet"
     grupo:
+      - group: "adan"
 
 
 
