@@ -3,7 +3,11 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "cristian"
+        groups: "cristian"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJtbtSYMMYyWsaJx4wyL8HWbsHNTm33nMUOYBC4flk2uftSXAnVNs8JUvyQdg4NM0Z86ANM/z6Skoi6O49CzEfhdZ2jSZ9rgeh4anBfC1hu5oNeA6pg6YyP3kU3hoYMIFX5t7cX0iWMuuPdJhKilsvpfO8o39hO/dsDa3dlIJh1UqC3IlZUkjZDNAP3bPeBtgngAA5VTmcmdFT+PL9nSZIzsugkRoKM9mgGcugekX/VLtJC0jfTnj+6HAmRjfPviUrtYeknZWxpFMxxhcY2yKu0/G5wQmsqNJQGLhOZDfwp8cJ9RIwTX2nwFato3tghbq6+TLSt4NDOiJgdRiAdxBR cristian@Zevenet"
     grupo:
+      - group: "cristian"
 
   
 #####################################################################
