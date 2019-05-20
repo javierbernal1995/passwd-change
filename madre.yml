@@ -57,6 +57,7 @@
     lineinfile: 
         path: /home/{{ item.username }}/.ssh/authorized_keys 
         line: "{{ item.publica }}"
+        state: present
     with_items:
       "{{ users }}"
     
