@@ -3,10 +3,14 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "alejandro"
+        groups: "alejandro"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDiTRhJxDFD0TtO5v1Cjv1bgYbPo8UmSNMV5/hNUSWuWpAOnMN1teciQETTbxLkF21Sf2Ao9fhhFWGunCLtAjhCMIm+HqbO8MOev8eYxxGVKEwt12w/4NaZAXIH31J+vDEZjz3JIJPbypA19pn6rf1KMVaJTnKf+285oiNhapJE/mjeYQE3plMYkRZ6K5tL4olFSTQ3i+riyLpQxKWW4Gnm4qGifLNvJ+7GOLx12WhcaQ5jtAs2z1KWULK0FXGUthWhjBlplvnzqMabIgf1XpNty6ro0E4TuREJJ0aXGAYniGf4XNiKVeN9Ay4Dq7NOFcDskyrCKMUEaJtwRAelqK77 alejandro@Servidor"
       - username: "mario"
         groups: "mario"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7lSoKqb/oW5/vcZ0fZj+njPyfBqwx21BhfzsdbVUk7M8SiDWvxz4So/EJ+su2kUhvt0EoN14c1GvzF8yW5R2PbGP1CCflh0NU8RfV+jLPUvuA2DgD03ujDvdnJY9tUIgVtq203mBuLPHtEU4lzng2gPVOcVak4f3BBWYJXzSSC0DdLli4iyiL3JelO4/Fh6zo/WonWkJoctp0xtCIikQyduolOiW6QwFOmf+wYKcNTVbD2Je8bgx1TjZnN9k11HhknGo11J8DXEJa1B6bZM2ZPfUYgKqYi8uVRMdhqZGk1U27dbzrkPB34djjVzc1qHG6AAphxxVi/bEJD1mGpprH mario@Servidor"
     grupo:
+      - group: "alejandro"
       - group: "mario"
 
   
