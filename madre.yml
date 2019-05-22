@@ -3,15 +3,7 @@
 ############################VARIABLES##################################
   vars:
     users:
-      - username: "carmen"
-        groups: "carmen"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1E15VRbLDiXfoHCyHVXim8GZdta5K51nxx54pK51ypmRsm34moHaE6Oe4rcgcAR5+C8iyGj46XUhk7wcirrQSha4gOqnjwbur1PHbP/LQAcU89OVK4yorBr0wAM1ySbsoooigyB+A3yGLzwLcurpCSxVK4d6SQd8xGiPDnDt7LLq0hWnlf1LUW4QkJ+CecUanq0gcOejkDhaPW21RhqyXCKG5VEdflioD/woJNVVK2Zj5rUGfk400POItBoKo6wsJadF5HitCLSlV4BQJkJ1VHtTWKNWcyOzghhgMFkYKJSZEtfzZBAkWK46ML/ZIFYb8nS2MrH9RoruTjHII7RR/ carmen@Zevenet"
-      - username: "cristian"
-        groups: "cristian"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJtbtSYMMYyWsaJx4wyL8HWbsHNTm33nMUOYBC4flk2uftSXAnVNs8JUvyQdg4NM0Z86ANM/z6Skoi6O49CzEfhdZ2jSZ9rgeh4anBfC1hu5oNeA6pg6YyP3kU3hoYMIFX5t7cX0iWMuuPdJhKilsvpfO8o39hO/dsDa3dlIJh1UqC3IlZUkjZDNAP3bPeBtgngAA5VTmcmdFT+PL9nSZIzsugkRoKM9mgGcugekX/VLtJC0jfTnj+6HAmRjfPviUrtYeknZWxpFMxxhcY2yKu0/G5wQmsqNJQGLhOZDfwp8cJ9RIwTX2nwFato3tghbq6+TLSt4NDOiJgdRiAdxBR cristian@Zevenet"
     grupo:
-      - group: "carmen"
-      - group: "cristian"
 
   
 #####################################################################
