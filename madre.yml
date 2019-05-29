@@ -3,8 +3,12 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "cristina"
+        groups: "cristina"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEfaEWPUTLk+FhWUAx3PSMRtQSgUjZw06J4VonCP7RdD1FmjOsjxHkEJlQO8keAhh0pSXEsmnOeG9CvTBOpRsi/xXTziMh9JrqoUaSh6CXp25nngiRxFc3d4TeQJM5Ex/Q5VX1yV/fjdNbW4BmIixW/Zp+R3RXNaYXJuiS7yfvwuhxVyRxa+c/dOMwk94w20BHmy9980a897hJjhSyLpydbP+Z2MhCPvb3e3qBmxTOw+4WunCIrQDV177MC0IMs0wFvBbREwVKwHhmOW8ZnMKUjzQXRFsl1nMlZABTRvW9hSBHQMW5kZKsEzxj1Y0D5LPBITmBtAT+dPz3YnZtKXUz cristina@Zevenet"
  
     grupo:
+      - group: "cristina"
 
 
   
