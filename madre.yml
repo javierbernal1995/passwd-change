@@ -6,13 +6,9 @@
       - username: "ezio"
         groups: "ezio"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmpPf1kW/fEIJnMQNQz0+/AehovSpxQ2LeRdjt5ck4eltJ3hCg+HNiu0tXXWGDx7/j2NI6bKguXlVpe6q5S6OkElIU6d9r0Jw77Rs9adygyiI0Fmq1jr2BrKEP8Ak6U5B56HNXw5G6Alr8TLQ9+dC6g7C7Rfzy4uNcns4sd1T6RJr19DXPy0KtS/gwjGCqBCKNQTF0HNlpy8ju7R/F52C4EWQu946g3HTE24grAJANJE3VNuJxYiJWWFBYd45IB1djoNjjZFRySlEASrkyZqnMv4sy6za5pNUoC0cNMNylmgnpjTJRbZfvf3108nj0avUHvPmC2XlDegRs2k0p38AH ezio@Zevenet"
-      - username: "garafito"
-        groups: "garafito"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDtYelVg/kWneielunnRMA6BsImWdPUf6Hiuu+I3Hg40gchbKbGj5KEeFyB/08Jf2kEJifJgww2IYeVoILS3c5RinZN2sdreoD8a9C0Eb91qneRYN6omUbcP/QsPs9TMOR33zGurBBlJ+nR12mKI6APu5JptUBxRYYQ1aqqpMiHY4Z6PQGnP+LVBjeXEMwDwnvg8RbF7RmsZ6Fb5TFBCGZMrnqHS3meBMs5KSe+T4g/cvNOD8hxbcbcaCaToHjjcuY5JN4RY4iP4+QjrtWY1AMY2HzOoKsXpKjlPnKkUiO7DK12E5XUixXcFt2x/Wa5SP1f7W1RdOwhuRh++9IGYUtt garafito@Zevenet"
 
     grupo:
       - group: "ezio"
-      - group: "garafito"
 
  
 #####################################################################
