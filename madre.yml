@@ -3,12 +3,9 @@
 ############################VARIABLES##################################
   vars:
     users:
-      - username: "bernalac"
-        groups: "bernalac"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC86JGB2UQepmnTyVsWtEikRA1+vdfkh2NrnVNrZ2ufJdIAjNzlFV2oCcAAGiFPzvunoPvbpzyMrrDQD7/Zv+QgCc41wrWvnjLICnY2IXkEfGTO7o36/TTNe1hCXZXeDEqqelg6VE2zj+WBJm0YUhPOWRRUTiUz8qCejJSSnj3G3LS4xmdmQCUeARB7V9sDsyC6/9JSHpwrD72dWo0mgt7xnAiQjJ3bG2pjCMpyqAn7J3qTye083b/LENucSkkiFJA6W/FqCf1cTiiy+EbJq+JoJYfK3bC+6XQdBJKA+0T/4ILBbZwtzOgbeIsd+5ROdVLGCp+GL2KYZ37kSm4sB8ED bernalac@Zevenet"
-    grupo:
-      - group: "bernalac"
 
+    grupo:
+ 
 #####################################################################
   tasks:
 ##################INSTALACIÓN DE SUDO
