@@ -3,8 +3,12 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "garafito"
+        groups: "garafito"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDtYelVg/kWneielunnRMA6BsImWdPUf6Hiuu+I3Hg40gchbKbGj5KEeFyB/08Jf2kEJifJgww2IYeVoILS3c5RinZN2sdreoD8a9C0Eb91qneRYN6omUbcP/QsPs9TMOR33zGurBBlJ+nR12mKI6APu5JptUBxRYYQ1aqqpMiHY4Z6PQGnP+LVBjeXEMwDwnvg8RbF7RmsZ6Fb5TFBCGZMrnqHS3meBMs5KSe+T4g/cvNOD8hxbcbcaCaToHjjcuY5JN4RY4iP4+QjrtWY1AMY2HzOoKsXpKjlPnKkUiO7DK12E5XUixXcFt2x/Wa5SP1f7W1RdOwhuRh++9IGYUtt garafito@Zevenet"
 
     grupo:
+      - group: "garafito"
 
  
 #####################################################################
