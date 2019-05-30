@@ -3,12 +3,9 @@
 ############################VARIABLES##################################
   vars:
     users:
-      - username: "bernalac"
-        groups: "bernalac"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCu8mzzChg6foI9ZmMotzguiI2vIzEXXPXlqWFXG0m/4d/5+X805+M2TcgQADfNoUg/0qwqlS5qdMvzQ+PR3R9TEDEVhaIZR8v/DQ2RqwzdJI2sC/qqHAnuEP0VW8xhh8nfNiaRJNy3+jcb4XiDTuwyhk9EnPgxBS37sCkLb3P5R8K9JcdWckORhZwvpweyLskrc4igRVigjDxfWIiNEV3ppQolMFgd8heoRpLwYkrVx5s915z0oQC+e6UUfnbeE4V7erf6XPW8H9qDxTl6WXmrJ4bLUoHC7lfgu6PkSr7/KAAISnceA2b19vdxbK3DkMUUsf8aP0oP0ICU+spJb4uV bernalac@Zevenet"
 
     grupo:
-      - group: "bernalac"
+
  
 #####################################################################
   tasks:
