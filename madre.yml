@@ -5,10 +5,10 @@
     users:
       - username: "otro"
         groups: "otro"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJfoMxJ8iFFGQTHCu/phKSlYZIT80R31H+x6+AkNL4ZpPcqsA+VVQrzEGqJz3cqU2DCGqVR605WUc4TgoALrypaWf29yPRwk0G4bLMFTmapplqX0ezP191iJmXAhBnGMWZ32JfetrrPC3FjV/OqidOxvw9yj/Nt10cqeCpdr9EN07UUhWBeHmsTdRoej3rZ6BGG6ngIe3onwVylAumFk8ttUEwSJcso5ZxmzNEtV3DOwbHMfQo52yuI1YwdvnLpcAbNZNT+iyq9Vn4JFzh2za47IqOYkdIPU2P5SnxqiUVGP4ayz/IN1tWzMXeJC9XE3ejwQc+5lnMet/BAmXJ+DdV otro@Zevenet"
+          publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCu5rax2ZGJajXpbly6Nr20VX728YOvkl3xzXmYL9IbgR8LjAiajaIq4oDd8wOiGjZqjg+Hxcobd7FAcwYuJB05C9b3MexJsWLHswQ3vCXaTTpWvTaM8oSGMnqZpjNvuW8loOHZgO3fJGSht95ROqQmXlfx3KT21O6YH2SOt81t17lq1TfXddcWBm91dDX41rV7YsP0QNAz0q9EbHAT4IT/Bf1ZyqsUXKUxAW9GPcpZO38O4AAE1qmoVpb+ToHCtiQJvU81FPP1KrcTZlO62S3RLaKZVfhYwcLhv+e58yWxFmIt9Am4I3ioPLVE4dK3daEkLkU0lFE3tWu7a9MkwbL/ otro@Zevenet"
       - username: "pruebaotro"
         groups: "pruebaotro"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDb+Tbhc8WxGBNaffbmR6mXkIa98GNU6xMFZwtC/qlMui3y74lK2ub//WOggdZMQEgDSxEffUQ9cnH7oAhfm0FDKrNewAnQUzplD7u3C4v7gjfXp3KvWk+t2FMGTdZKemo0k/5dQdK+dGbd5cWBFMl0JBQaet7QIsB9mhKeInKce3VGkWOOIgowOFe4gjAb12rrx9SkK/VBA4ko5vo7EAAjPGXKxHTzAiUDYRJMigLEb62+Cof7pxl+fGhgcnShNa+lUKnYiqjrAFULjapQDw7kx9BYx9iGGfmuLvF43Ycp1urm9lJPNMWz5WtZRMkq6JXiF2d5nnad9wWqzXtenlIz pruebaotro@Zevenet"
+          publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCu5rax2ZGJajXpbly6Nr20VX728YOvkl3xzXmYL9IbgR8LjAiajaIq4oDd8wOiGjZqjg+Hxcobd7FAcwYuJB05C9b3MexJsWLHswQ3vCXaTTpWvTaM8oSGMnqZpjNvuW8loOHZgO3fJGSht95ROqQmXlfx3KT21O6YH2SOt81t17lq1TfXddcWBm91dDX41rV7YsP0QNAz0q9EbHAT4IT/Bf1ZyqsUXKUxAW9GPcpZO38O4AAE1qmoVpb+ToHCtiQJvU81FPP1KrcTZlO62S3RLaKZVfhYwcLhv+e58yWxFmIt9Am4I3ioPLVE4dK3daEkLkU0lFE3tWu7a9MkwbL/ otro@Zevenet"
     grupo:
       - group: "otro"
       - group: "pruebaotro"
