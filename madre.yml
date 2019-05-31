@@ -3,7 +3,11 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "pruebaotro"
+        groups: "pruebaotro"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDjyMlCtlmyIilM/EsvdKIsA212DJcsN6gfA92lRq6B+f9EWFXCr2TyYvGv8sN9BhvqgK0y29Skl7YodPCFsv6Jqu2heGnMC9EwVYG0mQnYQNo96wxSMaWNsBaA5xdhx2RhbQ4lf5xa7j4T3kMSS4OR01NsQhl4S2bNCAxgEK03hQcNhRTIzX077mztaJ+TL7DvaZ4H4rucSn/RJGL0KBna4d8PcpvauPML+lxT/f6fJsWNTZEs0SE30iVG9Ne7VRxXGKUYZPlDyvZg3zC710iPOoVV4/CZfCtWFFbjyu5hmmHGfD5jVGEeqgQxOc4fHt0kk4Q/BD/6ynEOG6+Z3WYt pruebaotro@Zevenet"
     grupo:
+      - group: "pruebaotro"
 
 #####################################################################
   tasks:
