@@ -8,7 +8,7 @@
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCm1Lvi19K+sx1iyBJ8vXGmdHpFRTTcynfvSPvq49s4MNJTiP7GwnPyxkwHLJRVcKzg/wdy/sk/VIKc2yDgnEOTY8oT8LFJZyl0GYbd7BHMDSuY2wMqxwTb8QpNP6kMJsii+/f7Bmr2WrI1GkB5OWG1FmFxHua2NnVAY6YpGaS/DOSMTWtHnUPzfca8aNavP5k39C3LmPD/r9gMnYNYGFUsulMmPTBbVLiwz+oZmBfXtNh6/0gXPF3lab2KrYeTxVSMK5nhaxkb7AQaotauwPsBNnFBnq261ygYUaPuyArM+zKHrIBSjHGJbe5IXaAsN2iyYOpiUn1KZluNr2TMecRp pruebaotro@Zevenet"
       - username: "otro"
         groups: "otro"
-          publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8QgyuxEsqe+6T1cUmTl/ugVVRGJEvBk1AjUDvJK70NHvupCX5zoK/rMVuGvwL6Yu1nxTpyXhCB9ObJFCqfZjYruWieOLgb4NVsFQR6SFVFUqg5UkSy4t8xzGxTrAccjap12A/lnuF3Zu2I8m1+x4Byz9vhIkKjrGRNkWisACHpKuFelDSdlFLDu3PGgez5ovU7rKrIS4IYvEGX56VYzU3nAPPzyfVG+mSl9h0ibOVqoh5OmTKluzLRQE2QGRI4zwD/BZxr3hTS4MwODeWQVJ8oF38IKs4Rg6HNzk7U8TGvfaq4w1NU2EcbR8OQ0jGVOQRYZ9N/oMMEQfgt7pxWI61 otro@Zevenet"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQChEHz9mlb0LOPSIp9qTNp5iFQsIFkGvcj18X4RtvbPe8pTBB9kaPXvM3QaPwlSRVq6l5pEz694SQevHuUGsBzziMLYWTbNvwzu41V3mNFpO1lxQH6b7OjBd/vXI1N78XAHUvnD+9+feUMaw2740MleJCKoTsEvoaSgYXShLukwCzA3h2TTwy7OwjQsNYIb4DpbkyNLg6nGO/iUPqgJBhxUSzreopfrAkVli59CwTv3AWNqd0mPMtRCR1mPlxGVZ3gJKrT2N1MQQwx7nSHH3cax4Byw7ly+uXKDP9l83KjF2hIX5wye/m0BJ+npFeomdAzFCIDjFxOeIZOcIcV/4XWr otro@Zevenet"
     grupo:
       - group: "pruebaotro"
       - group: "otro"
