@@ -5,7 +5,7 @@
     users:
       - username: "pruebaotro"
         groups: "pruebaotro"
-          publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCifDmZbuLty0TRMJO89DyOAqneq2XlEyHsyc2WXcUyYnFqDoG1UU7U62vXTIc+pZtgoDtbdh7XzMloZe3mmdOwn4ng5sHb4YDONS+y7o/WGZCqEDrlMNBj2MpCIcr5lQPg/zuM8V1koPszS6Tsbi0C71PWG/YOFf+ULVdQF4nN/4VcfBoTU8VN9XMk2cl183sfSBZQUsmXEoVv9AfrcWM30SNwDyNM+7s84VqkesVAPaakXOyM6HXwnmuhbCSRAuy7b0fxmZyD1sKPvMTMPNRFM7jdK5lzNlZ3X5WCIruuAp+13c/qhGJ2Ednwla38YUwRBC8znHuatPGdWLLp+ACB pruebaotro@Zevenet"
+          publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQLzLqYl0kRhbR8AIug25Ea7sR+DrSDGsR/kl75IPnxPrQ4Z+lcs78ucrSXHxHTcqX60uLCiRRQ5ge8wet3Sh4qirAWq/arxZWFJOUMnFE5pM2Y3vh+KC8A/HBIanY64TuTifz454OWXCeNysLTZUF/IriUNiYYhU2RRQuYI3H4QHPEZ4DxnBwyjHuGVry+Q5wHJP2zN0VFkLr//tTXRCkPsle25uwfCXtw4pIKgP9rbCWUrsJ+d1eWUv3fWG/tnYRlDpzd2t+cyDKLIKCPal1RL7D2CLxTYXpaU00Gq+lhGA7x8Z44bH7Srz1McF7o/ibMI1Zvdv859hV9jV764QX otro@Zevenet"
       - username: "prueba"
         groups: "prueba"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCeQGUQ0lSQuv/DmDbeZGUkY00reR8C21SHXae4xDI2oepZqzTQPuBJuR2hMhgu0sSPRQURMfReBRV0Is5D3MGpxUDLDrOZfP1uMQiqLTcihm1p7A2Jz38ynsfo02XnHjc40ExgHpr22Aguj/aveMfBSWcwnKesrGNjjdtexK8ZbiFnVsDPRTx+VRsVtHxTk7fmJQiiES+WaPFYRaP0sxCy4/1tLmx7LI6ULQEDn4wfF3IIsCFVzfjIv8gHRk/5bhaCU8ww17QEoRrAq3GXHUfPPZKcn6S45r+lJkUkXd5vM08De2fMM376H3uJhhhEnHQ+TF6TaHQj5acKsleR+0zJ prueba@Zevenet"
