@@ -3,11 +3,7 @@
 ############################VARIABLES##################################
   vars:
     users:
-      - username: "ezio"
-        groups: "ezio"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHRfQTjCyMHSvndu9Lm6hBmMWxkdgwmYAmhYYMM/a3bdG4hVuNDyy+Vrtvo49d9rv0nnLobt9imIbiCOAUixw2JNiMpVMxnwZmXEDDtalwRn6wvmLzZr/Ayik3sjAfsloquKD1k+LlRm4uS8NLlLztdT6MMXzXgqGCunxiAFTaE1d9YFwwN1MJo7WRDXD7bvP/KJCJgK0IEliVdJgzPBeVOwQUM3NHNkqOKIjLLCBFeK8Wu6ixHu8USe86ete/Hf6qb/oUot+lu+nUh94CcPvBSRpRg3pqLlA7RteDr6nvcAyG3v9pbJOuQbTTwEFVkXNxQ6foYTEXcfBAijVQRqnz ezio@Zevenet"
     grupo:
-      - group: "ezio"
  
 #####################################################################
   tasks:
