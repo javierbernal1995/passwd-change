@@ -3,10 +3,14 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "otro"
+        groups: "otro"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJfoMxJ8iFFGQTHCu/phKSlYZIT80R31H+x6+AkNL4ZpPcqsA+VVQrzEGqJz3cqU2DCGqVR605WUc4TgoALrypaWf29yPRwk0G4bLMFTmapplqX0ezP191iJmXAhBnGMWZ32JfetrrPC3FjV/OqidOxvw9yj/Nt10cqeCpdr9EN07UUhWBeHmsTdRoej3rZ6BGG6ngIe3onwVylAumFk8ttUEwSJcso5ZxmzNEtV3DOwbHMfQo52yuI1YwdvnLpcAbNZNT+iyq9Vn4JFzh2za47IqOYkdIPU2P5SnxqiUVGP4ayz/IN1tWzMXeJC9XE3ejwQc+5lnMet/BAmXJ+DdV otro@Zevenet"
       - username: "pruebaotro"
         groups: "pruebaotro"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDb+Tbhc8WxGBNaffbmR6mXkIa98GNU6xMFZwtC/qlMui3y74lK2ub//WOggdZMQEgDSxEffUQ9cnH7oAhfm0FDKrNewAnQUzplD7u3C4v7gjfXp3KvWk+t2FMGTdZKemo0k/5dQdK+dGbd5cWBFMl0JBQaet7QIsB9mhKeInKce3VGkWOOIgowOFe4gjAb12rrx9SkK/VBA4ko5vo7EAAjPGXKxHTzAiUDYRJMigLEb62+Cof7pxl+fGhgcnShNa+lUKnYiqjrAFULjapQDw7kx9BYx9iGGfmuLvF43Ycp1urm9lJPNMWz5WtZRMkq6JXiF2d5nnad9wWqzXtenlIz pruebaotro@Zevenet"
     grupo:
+      - group: "otro"
       - group: "pruebaotro"
  
 #####################################################################
