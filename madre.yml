@@ -58,15 +58,15 @@
   - name: Mover archivo bashrc al directorio /etc/profile.d/
     copy: src=/root/Script/bashrc.sh dest=/etc/profile.d/ 
 ######################## Módulo de iptables genéricas, según hostname y según grupo externo e interno
-  - name: Ejecutar script en todas las máquinas
-    script: /root/principal.sh
-    
-- hosts: interno
-  tasks:
-  - name: Ejecutar script en máquinas internas
-    script: /root/interno.sh
-    
-- hosts: externo
-  tasks:
-  - name: Ejecutar script en máquinas externas
-    script: /root/externo.sh
+#  - name: Ejecutar script en todas las máquinas
+#    script: /root/principal.sh
+#    
+#- hosts: interno
+#  tasks:
+#  - name: Ejecutar script en máquinas internas
+#    script: /root/interno.sh
+#    
+#- hosts: externo
+#  tasks:
+#  - name: Ejecutar script en máquinas externas
+#    script: /root/externo.sh
