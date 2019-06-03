@@ -3,11 +3,7 @@
 ############################VARIABLES##################################
   vars:
     users:
-      - username: "pañuelo"
-        groups: "pañuelo"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDPrwrRkmKS6iOEngKedxuzXUCJ0Xok7d9EfGu0SXtsPMcW9Qc11YDwBPyeKVZQGg/BYdQTvSNKOfGDA+S6Tz+7RIo99JXskNCLRsMXzJtRFBd/PSv8XRMxU6Ta0jG2NW5N1ZwbYI/a5DhUmsteHKhyHXXeLxm7bflLM7pUUBp8WLLH6/8RyUKfVZqElrR6sAt2WYPwSYH0ZoAVMfVVJqBjWYAlf/gnNZce5MUS7PFTNMJ+JvmcME6f6bGNCISUXfbtIPCiUuzCyvyTaQJirH4jrqBGjOPA2JgFVCVWSoP9OtfoJHN9jkyEm4sxKbouwujc0yyIO+xHl9jELglK+cQJ pañuelo@Zevenet"
     grupo:
-      - group: "pañuelo"
 
 
 
