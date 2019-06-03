@@ -5,7 +5,7 @@
     users:
       - username: "carmen"
         groups: "carmen"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9Fm2VzPDKQmZJ3ibhinl+UeMv6zooWY50kJECbosD0ZsWXcazvsj0J+jl/X2u6ddtxxp3zN62qlljkTCdxDAuvLTKFeRdYkR8jnq6r66zgWBc1SWnPXbgR2gOSpK+X0BEkObt5ODU6FHZqxM5Uo3Q0ZCXExp6pdFqyHuFRqWX+HizocixeL6Exaqz6UINm7Gy3z0htnHqk+ySyL7iTmJoX6KT1ZR/V34eGQQxmGAEAeqiqGLYeKkdWEa04J60CifidgspSdMPw/T7yltP9jd18oyNspTmrTXejPPV5KlKbd6CB3turjFIsy2b9/4qOAn+Y02hxUw9ngdVS0KX9Sor carmen@Zevenet"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzjLdSjIsrVulPM0ynA/0ccOHSA/elpyrfThWoMKvjp+rBGNB9/NYihzFfrsiWrW3u3QuOa3P+1HjN8AutHJq/KyYkPs3Qy9qkSQEkD3gyryupdSIUn0TbpqIh7ySdk+eWefQSR1fPwQSESCLCFfLq5CDrb0Mvrpd+6sOICRyQxqTCSNA2+To7VaK/NZPFu3adozeBhGmW6Zq1wy+EFkwaSPJhFfj7fG0bJXIghbLLF6QAWxMWOmBOAyZUOJuBXfA625j2iBSmbUL7IVb0temdGnxi8dujtBxHVYVuyxDsTgsyDGqMeEg6s4FrFlQ0ETOkNkQhOPKGH037mAX+qqLL carmen@Zevenet"
       - username: "pruebaotro"
         groups: "pruebaotro"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCm1Lvi19K+sx1iyBJ8vXGmdHpFRTTcynfvSPvq49s4MNJTiP7GwnPyxkwHLJRVcKzg/wdy/sk/VIKc2yDgnEOTY8oT8LFJZyl0GYbd7BHMDSuY2wMqxwTb8QpNP6kMJsii+/f7Bmr2WrI1GkB5OWG1FmFxHua2NnVAY6YpGaS/DOSMTWtHnUPzfca8aNavP5k39C3LmPD/r9gMnYNYGFUsulMmPTBbVLiwz+oZmBfXtNh6/0gXPF3lab2KrYeTxVSMK5nhaxkb7AQaotauwPsBNnFBnq261ygYUaPuyArM+zKHrIBSjHGJbe5IXaAsN2iyYOpiUn1KZluNr2TMecRp pruebaotro@Zevenet"
