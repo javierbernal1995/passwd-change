@@ -3,7 +3,11 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "javipru"
+        groups: "javipru"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCgGQ3K4qyTXUVhPdfSwnrEOqguukwvyojr/CcCdM/R8kIOGohNf7cDQMpdBpG0yyw1fWE1qvJnXgj9dqaWPvMt5WX/TmlGTKQoZECEahXFHhr36px+M+UzHJ2cVdhOppXvkV1waeBtm7rDx1Pnn1jluTNDms5KlL2ACVU/wN4yCL4i/T1sb6S1cNpIkwfglGMFeQnjIZYRHT74GBr1uu6dYozFzUvIJNlnJcixRjwslDm1VqGKL/FITdDINWjm15NuUx7nrLx9oXb4ol9I+nM4uF1LpllAEbVDkQFA1xlTeb6ccp6Td5qLsIh+9VxeKqOPZt7mD2nXowM+ZZodPWix javipru@Zevenet"
     grupo:
+      - group: "javipru"
 
 
 
