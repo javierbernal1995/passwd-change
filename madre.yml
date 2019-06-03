@@ -3,6 +3,9 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "carmen"
+        groups: "carmen"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzvH5fOwlOZcEljv7NxiQ9B+dnQr+ChzPaSfcTml0PqDrvgQaTs0i7PjeJuyAgsqut0GPlL+YVPOrHttBLPQb+plii02IXXCeEObww/BhfwHxUZsOGB+wt6Q0RSFxTSyyGF2ik/gt/m9a+2xkZtyi7CZDIuvPJlq3PueHaGD66MBCTxwZ6BZnkDHbDQnUaN9XtZWHR1DLIxz7Qc5HaQ3rMA4IoqPQ9iA3Az6qkQR20DCm7NOQ8d3/ZAM8ytu63gMMIsSTtf02OJBkdhq0hG4lAtG/8Vm1nRvGSV6cXwWg0PEVtwtlPEqXuxCBntXImNl2OqTGPJVdn+rOCOmDQiCL1 carmen@Zevenet"
       - username: "pruebaotro"
         groups: "pruebaotro"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCm1Lvi19K+sx1iyBJ8vXGmdHpFRTTcynfvSPvq49s4MNJTiP7GwnPyxkwHLJRVcKzg/wdy/sk/VIKc2yDgnEOTY8oT8LFJZyl0GYbd7BHMDSuY2wMqxwTb8QpNP6kMJsii+/f7Bmr2WrI1GkB5OWG1FmFxHua2NnVAY6YpGaS/DOSMTWtHnUPzfca8aNavP5k39C3LmPD/r9gMnYNYGFUsulMmPTBbVLiwz+oZmBfXtNh6/0gXPF3lab2KrYeTxVSMK5nhaxkb7AQaotauwPsBNnFBnq261ygYUaPuyArM+zKHrIBSjHGJbe5IXaAsN2iyYOpiUn1KZluNr2TMecRp pruebaotro@Zevenet"
@@ -10,6 +13,7 @@
         groups: "otro"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQChEHz9mlb0LOPSIp9qTNp5iFQsIFkGvcj18X4RtvbPe8pTBB9kaPXvM3QaPwlSRVq6l5pEz694SQevHuUGsBzziMLYWTbNvwzu41V3mNFpO1lxQH6b7OjBd/vXI1N78XAHUvnD+9+feUMaw2740MleJCKoTsEvoaSgYXShLukwCzA3h2TTwy7OwjQsNYIb4DpbkyNLg6nGO/iUPqgJBhxUSzreopfrAkVli59CwTv3AWNqd0mPMtRCR1mPlxGVZ3gJKrT2N1MQQwx7nSHH3cax4Byw7ly+uXKDP9l83KjF2hIX5wye/m0BJ+npFeomdAzFCIDjFxOeIZOcIcV/4XWr otro@Zevenet"
     grupo:
+      - group: "carmen"
       - group: "pruebaotro"
       - group: "otro"
 
