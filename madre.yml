@@ -14,6 +14,8 @@
 #####################################################################
   tasks:
 ##################INSTALACIÓN DE SUDO
+  - name: install python3
+    apt: name=python3 update_cache=yes state=latest
   - name: install sudo
     apt: name=sudo update_cache=yes state=latest
 #####################CREAR GRUPOS MEDIANTE VARIABLE.###########
