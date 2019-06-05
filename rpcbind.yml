@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+    - name: Stop rpcbind service
+      service: name=rpcbind state=stopped
