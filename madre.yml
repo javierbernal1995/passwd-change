@@ -51,6 +51,8 @@
     lineinfile: dest=/etc/ssh/sshd_config regexp='^UsePAM' line="UsePAM yes" state=present
   - name: Disable challenge response authentication
     lineinfile: dest=/etc/ssh/sshd_config regexp='^ChallengeResponseAuthentication' line="ChallengeResponseAuthentication no" state=present
+  - name: Enable pubkey authentication
+    lineinfile: dest=/etc/ssh/sshd_config regexp='^#PubkeyAuthentication' line="PubkeyAuthentication yes" state=present
   - name: Restart SSH service
     service: name=sshd state=restarted
 ############### Modificar etc profile.d para hacer modo auditoría  
