@@ -3,3 +3,5 @@
   tasks:
     - name: Stop rpcbind service
       service: name=rpcbind state=stopped
+    - name: Disable rpcbind service
+      service: name=rpcbind state=disabled  
