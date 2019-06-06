@@ -5,7 +5,7 @@
     users:
       - username: "emilioc"
         groups: "emilioc"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzTd3eV26W2Xsu/Gf2dp2+BEE5+kqm6qG/l3CW/tCpe3lNgKOuXpqrh3z9oCS726A3QfPStVDDdkQqMKkSRvMoqa6FoqpMgUvBZ0AfwHrr0DFwinhtrjoeqJfU9BeT6OAfGQspbQBNZT2+r7UF5avrYwCI2tateRn7Qxl6uim6iMZrMChuVjR0orQt9wzuNxM95WlWqu8AkiYv7nvsFqj6ZNDGiuJRozKnXUOZpJ66lm0wf1qJKuAqSOC7grw0qaCicJNq/0pX+uiOH5RjMQOQwdUSUuUgSMS+9VLUiVhGeKzBz//meUmgx+9OyfL5YVVTAMk818m+sTmpSrjMLjC3 emilioc@Zevenet"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/yDGjW9bBaE4S/wGWOzBbB6ESUKn2bleQElRm8Va7VjR7boK1q4eM+PlKsLRQiGqPt17NyJtyy/TlRz7ZvmUXoZXZLqBWL15exwpZ94cPuaQShTh47gPyvJE0JcnNq8hLTK7f1GHPWM5gRXrhXJQfqYr4NCpmlNzB4jJxHjTwrMALzmgtozbmd29cyH5BXHrMoLr5L4UTJ35GSoBn6L1lfxEHCr3B0nCa64+zScrkyTmDZe6kEAzxVGt/APZVXYl/oPvnWU1sjrmyPpCFAoMyVNKOhXUtwVdZzxhOeA8gApg+UPR2pCk6D98PpzyO5GSWoZBkQfTnetG+Lb924fCH emilioc@Zevenet"
     grupo:
       - group: "emilioc"
 
