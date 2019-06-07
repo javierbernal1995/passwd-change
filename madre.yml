@@ -3,11 +3,8 @@
 ############################VARIABLES##################################
   vars:
     users:
-      - username: "emilioc"
-        groups: "emilioc"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzOPCr9tslXu3xiD3jeCstFCU4cRpBK2Bwwq5FyptR59IkzLEvLxviDqBMovXzb1fDHvRG8fHXK2P9UP3zGo5MGyosqNE2/xe7QQ2UMS2QEDXpgci2x9IsrsiyvoLnwzh6/51bsBHfqNwdOmCHL8kDXvn+o9FXGKpFSiXXomrabolmDqDoXOqAtiWTNy9WXikWr4gNIrlyFVo77kyEkbopwuRK3wQSrQ1r+IS/i0X6xVnlBczcRFdMmpEm3RT8UXnusHwptr6leNnJOv2A162aDY7prw2aughx1j1bgBxT6hSawFzHa6vxE+cs0NSqqNllcpdr/8C1q0ZN1VURYH3D emilioc@Zevenet"
     grupo:
-      - group: "emilioc"
+
 
 
 #####################################################################
