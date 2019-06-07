@@ -3,10 +3,14 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "adan.marin"
+        groups: "adan.marin"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDmbP6BJHS4YFKLtENn6HVJfLP3CzdRnTLMLPW65uXrw3PKJEFT/ymOc2AsIGGifnMg3I55+RGgzeeWq1XYLVFvBy46wnROf1H2hmIyOLq3XrQ6+mWnHpU663MhVzO477AUTk3z9EkyaLgK3fHIdlGCb9yyE5bAAgouv1m7psmTPQdEcb49rqpViyc7bk+UNDVGfI/o5bLETetz5e386rdTcKTgTqC0XU2rM+DD/ujdWdo70oBjfsqzHa/6vTiwseGyH8LDtejl+W49ZpzBh0h5lVnzUk50xMebCgXCTC4AEGu123G07wXr2Iqie7gHIJjoPJQbs0zzXBJbOiCSHXnf adan.marin@Zevenet"
       - username: "emilio.campos"
         groups: "emilio.campos"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCosQwU/OBjiKS62VIT1+T4tZufzHY5TtmTC9PmI5EeeAldoFkkBOE2cPSEhBuhP6CvMVG2hn4aofzWeyFUtB4k3IHLaRNSkQ+RSB7B4sX+pT8I8ModcMshlAEoaZ9LwOYXFS8xlzG3jvUbdwwr1s6+XcN8FZT+qzLr5SoCJP1MFKJQ5+1eYlMHupCG2HDYVE7JbCPJsRtWYDcZ0DZr5nYNDwObu7V3cnvG6j6Elts41mHDQ/HOym8dTV2XsTn4CufUvUJD7Zr6EwPOAL+JFPuyJkdvCW5lSchk2fs55O61QZxlrJJT4Hm7NCd7nBNLxkkYT6g7LzI7hW739ZVatIi/ emilio.campos@Zevenet"
     grupo:
+      - group: "adan.marin"
       - group: "emilio.campos"
 
 
