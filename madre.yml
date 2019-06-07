@@ -3,11 +3,8 @@
 ############################VARIABLES##################################
   vars:
     users:
-      - username: "javier.bernal"
-        groups: "javier.bernal"
-        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDY/TmjCP63f/zGMFEwc0Cji4UpijQsCRvXkf6stD6Bf9gzSd8xeeZuhNeL8ROyLOKsYihnRMWoCN54mec9GZR+DmxXdskbTIrUv1hTMcG9ggtei5Djc3Wlw4/4G6c9NuBmOwFNM7THA0WUZgSfOK46dO0S/uSxb2BvJlGR/ENsZidHxvWBsZcjjh6nnPfBLgK1F87ekBudaL/6f5g+6v0BfkFuSJeR9oUy413eEbrvRo0MTui/awd2IM0aZTS5QsG7jHzlEsIOWt1kx9lZ4Jy/xjdtpOkmkKht1QNhGwdj9BQkr62zmMjxCcXdHRhhSwbCxKdmnTXfdGzttUhsNTn/ javier.bernal@Zevenet"
     grupo:
-      - group: "javier.bernal"
+
 
 
 
