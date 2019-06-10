@@ -4,7 +4,7 @@
   - name: Disable root login
     lineinfile: 
       dest: /etc/ssh/sshd_config 
-      regexp: '^?PermitRootLogin' 
+      regexp: '^PermitRootLogin' 
       line: 'PermitRootLogin prohibit-password'
   - name: Permit pubkey authentication
     lineinfile: 
@@ -19,7 +19,7 @@
   - name: Enable PAM
     lineinfile: 
       dest: /etc/ssh/sshd_config 
-      regexp: '^?UsePAM' 
+      regexp: '^UsePAM' 
       line: 'UsePAM yes'
   - name: Disable challenge response authentication
     lineinfile: 
