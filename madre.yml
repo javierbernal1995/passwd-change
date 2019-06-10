@@ -48,7 +48,7 @@
     
 ############################DIRECTIVAS PARA EL FICHERO ETC/SSH/SSHD_CONFIG
   - name: Disable root login
-    lineinfile: dest=/etc/ssh/sshd_config regexp='^?PermitRootLogin' line="PermitRootLogin prohibit-password"
+    lineinfile: dest=/etc/ssh/sshd_config regexp='^PermitRootLogin' line="PermitRootLogin prohibit-password"
   - name: Permit pubkey authentication
     lineinfile: dest=/etc/ssh/sshd_config regexp='^#?PubkeyAuthentication' line='PubkeyAuthentication yes'
   - name: Disable password authentication
