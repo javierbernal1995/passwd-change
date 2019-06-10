@@ -2,8 +2,8 @@
 - hosts: localhost
   tasks:
     - name: Ejecutar script de claves amazon
-      script: /root/Script/amazon.sh javier.bernal javier.bernal@sofintel.net
+      script: /root/Script/amazon.sh carmenmaria.rufo carmenmaria.rufo@sofintel.net
 #    - name: Another again
- #     script: /root/Script/amazon.sh adan.marin adan.marin@zevenet.com
+#      script: /root/Script/amazon.sh adan.marin adan.marin@zevenet.com
       #################### root/Script/amazon.sh usuario email
       ############################ ejecución de script con dos parámetros. El primero es el nombre y el segundo el correo
