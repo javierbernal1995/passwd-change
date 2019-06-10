@@ -6,9 +6,6 @@
     grupo:
 
 
-
-
-
 #####################################################################
   tasks:
 ##################INSTALACIÓN DE SUDO
@@ -43,30 +40,22 @@
     
 ############################DIRECTIVAS PARA EL FICHERO ETC/SSH/SSHD_CONFIG
   - name: Disable root login
-    lineinfile: dest=/etc/ssh/sshd_config regexp='^PermitRootLogin' line="PermitRootLogin prohibit-password" state=present
+    lineinfile: dest=/etc/ssh/sshd_config regexp='^?PermitRootLogin' line="PermitRootLogin prohibit-password"
+  - name: Permit pubkey authentication
+    lineinfile: dest=/etc/ssh/sshd_config regexp='^#?PubkeyAuthentication' line='PubkeyAuthentication yes'
   - name: Disable password authentication
-    lineinfile: dest=/etc/ssh/sshd_config regexp='^#PasswordAuthentication' line="PasswordAuthentication no" state=present
+    lineinfile: dest=/etc/ssh/sshd_config regexp='^#?PasswordAuthentication' line="PasswordAuthentication no"
   - name: Enable PAM
-    lineinfile: dest=/etc/ssh/sshd_config regexp='^UsePAM' line="UsePAM yes" state=present
+    lineinfile: dest=/etc/ssh/sshd_config regexp='^?UsePAM' line="UsePAM yes"
   - name: Disable challenge response authentication
-    lineinfile: dest=/etc/ssh/sshd_config regexp='^ChallengeResponseAuthentication' line="ChallengeResponseAuthentication no" state=present
-  - name: Enable pubkey authentication
-    lineinfile: dest=/etc/ssh/sshd_config regexp='^#PubkeyAuthentication' line="PubkeyAuthentication yes" state=present
+    lineinfile: dest=/etc/ssh/sshd_config regexp='^#?ChallengeResponseAuthentication' line="ChallengeResponseAuthentication no"
   - name: Restart SSH service
     service: name=sshd state=restarted
 ############### Modificar etc profile.d para hacer modo auditoría  
   - name: Mover archivo bashrc al directorio /etc/profile.d/
     copy: src=/root/Script/bashrc.sh dest=/etc/profile.d/ 
 ######################## Módulo de iptables genéricas, según hostname y según grupo externo e interno
-#  - name: Ejecutar script en todas las máquinas
-#    script: /root/principal.sh
-#    
-#- hosts: interno
-#  tasks:
-#  - name: Ejecutar script en máquinas internas
-#    script: /root/interno.sh
-#    
-#- hosts: externo
-#  tasks:
-#  - name: Ejecutar script en máquinas externas
-#    script: /root/externo.sh
+- hosts: externo
+  tasks:
+  - name: Ejecutar script en máquinas externas
+    script: /root/rclocalexterno.sh
