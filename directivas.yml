@@ -2,14 +2,29 @@
 - hosts: all
   tasks:
   - name: Disable root login
-    lineinfile: dest=/etc/ssh/sshd_config regexp='^?PermitRootLogin' line='PermitRootLogin prohibit-password'
+    lineinfile: 
+      dest:/etc/ssh/sshd_config 
+      regexp:'^?PermitRootLogin' 
+      line:'PermitRootLogin prohibit-password'
   - name: Permit pubkey authentication
-    lineinfile: dest=/etc/ssh/sshd_config regexp='^#?PubkeyAuthentication' line='PubkeyAuthentication yes'
+    lineinfile: 
+      dest:/etc/ssh/sshd_config 
+      regexp:'^#?PubkeyAuthentication' 
+      line:'PubkeyAuthentication yes'
   - name: Disable password authentication
-    lineinfile: dest=/etc/ssh/sshd_config regexp='^#?PasswordAuthentication' line='PasswordAuthentication no'
+    lineinfile: 
+      dest:/etc/ssh/sshd_config 
+      regexp:'^#?PasswordAuthentication' 
+      line:'PasswordAuthentication no'
   - name: Enable PAM
-    lineinfile: dest=/etc/ssh/sshd_config regexp='^?UsePAM' line='UsePAM yes'
+    lineinfile: 
+      dest:/etc/ssh/sshd_config 
+      regexp:'^?UsePAM' 
+      line:'UsePAM yes'
   - name: Disable challenge response authentication
-    lineinfile: dest=/etc/ssh/sshd_config regexp='^#?ChallengeResponseAuthentication' line='ChallengeResponseAuthentication no'
+    lineinfile: 
+      dest:/etc/ssh/sshd_config 
+      regexp:'^#?ChallengeResponseAuthentication' 
+      line:'ChallengeResponseAuthentication no'
   - name: Restart SSH service
     service: name=sshd state=restarted
