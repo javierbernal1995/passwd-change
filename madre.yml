@@ -3,10 +3,14 @@
 ############################VARIABLES##################################
   vars:
     users:
+      - username: "carmenmaria.rufo"
+        groups: "carmenmaria.rufo"
+        publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+w1Er+Wh6lRAkO9/a/tqwTDrzu7su4T62rEpfbSpsv5HS/DbW+8wQwGQtp2ezyxLktmaCGTwUS72Cdzsgfyuwpfvnq0V8eJImIPhzd+lwfJjhSkDOeqbmmXcaTY9VDTyHDjWzLXQ5e/T0n48VMWyT/h/ICIktZQZextzG5jQzdGAU4vrQaaT/QetXcHv8upFbmRG6s92mICjeXJ4oUfe8j2Tu3et5+EQlEDbc88ncyCSVdc9WdFj0ej4tT6fwDlrmYtKMeAs415/8I/zM+8kAJbgSERtRi9SQD/+JnKP3UMJS2F65ok770OXN4d7rSHi7Uc5jV/ClOsU7+K4qdoOF carmenmaria.rufo@Zevenet"
       - username: "javier.bernal"
         groups: "javier.bernal"
         publica: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+wrq0IBCD+rBjwVeIonz+Dh7wDrvQo4SVQMVegLWCxFwozECdwSQ2bLO0cgHE89+PNC0vXL1tfWML4rdYYS+muViS75UmlHh/GNeb6EVAVDGLIGj8BZt6/BxW8z4vcA/DkUCCKF6lSl/j+mPfml7aA0ghl16VoDWjMxwiPnyE7B9I8p9nsWaTGM5+ulIAls1reLzCtaeD8lp++rGwuQtZelucGdSYydrzF+azCKe5/DIZDHnQ5+HJvbGJikc91pTZQAVllyxr3UyTQEiCrlKe3u596RHR5wsVN0KGXqPtawiHFwL36PzxTjTnKCmIBjib1a/cDwIUvni4voj9ESWj javier.bernal@Zevenet"
     grupo:
+      - group: "carmenmaria.rufo"
       - group: "javier.bernal"
 
 
